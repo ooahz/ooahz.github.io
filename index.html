@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>WhiteNight</title>
+    <title>白夜</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="WhiteNight,白夜,ZhaoH,个人博客,爱音悦,白夜助手,"> 
     
     <meta name="author" content="WhiteNight"> 
-    <link rel="alternative" href="atom.xml" title="WhiteNight" type="application/atom+xml"> 
+    <link rel="alternative" href="atom.xml" title="白夜" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
     
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
@@ -33,7 +33,7 @@
 <meta name="generator" content="Hexo 4.2.1"></head>
 
 <body class="loading">
-    <span id="config-title" style="display:none">WhiteNight</span>
+    <span id="config-title" style="display:none">白夜</span>
     <div id="loader"></div>
     <div class="nav">
     <ul id="menu-menu" class="menu">
@@ -70,12 +70,34 @@
 	</div>
 	</center>
 	
+	 <center>  
+	 </div>
+	<div class="timedate">   
+   <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("05/20/2020 20:20:20");//此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
+	</div>
+		</center>
 	<p class="footerlinks">
 		<a href="#" class="iconfont icon-null"></a>
 		
             <a href="/" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
         
-            <a href="/img/qrcode.jpg" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
+            <a href="/img/qrcode.jpg" title="tencent" class="iconfont icon-tencent" target="_blank" rel="noopener"> </a>
         
             <a href="mailto:z1359256243@gmail.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
         
@@ -88,7 +110,7 @@
         <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
 		
    </p>
-	
+
 </div>
 
 <div id="container">
@@ -116,12 +138,7 @@
     <div id="post0">
         <p>五月 20, 2020</p>
         <h2><a href="/2020/05/20/first/" title="白夜" class="posttitle">白夜</a></h2>
-        <p class="summary"> Welcome to WhiteNight
-似此星辰非昨夜，为谁风霜立中宵？
-
-
-我的作品（精彩推荐）
-白夜助手...</p>
+        <p class="summary"></p>
     </div>
     
 </div>
@@ -135,11 +152,10 @@
     <div class="else">
         <p>五月 20, 2020</p>
         <h3><a href="/2020/05/20/article/" title="每日一文" class="posttitle">每日一文</a></h3>
-        <p>饮茶时光
+        <p> 饮茶时光
  梁文道 
-尾指应该曲折起来，还是自然地往外伸出呢？这是个问题，是个礼貌的问题，这是个有关喝茶的礼貌的问题。
-
-我说的是在英式饮茶的时候，持杯手...</p>
+尾指应该曲折起来，还是自然地往外伸出呢？这是个问题，是个礼貌的问题，这是个有关喝茶的礼貌的问...
+</p>
     </div>
 </div>
 
@@ -223,4 +239,6 @@
 
 
 
+
+<script type="text/javascript" src="/js/click.js"></script>
 </html>
