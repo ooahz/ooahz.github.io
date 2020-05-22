@@ -5,22 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>白夜 - 白夜</title>
+    <title>【开源推荐】进阶实战，从一款音乐播放器开始 - 白夜</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="WhiteNight,白夜,个人博客,爱音悦,白夜助手,"> 
-    <meta name="description" content=" Welcome to WhiteNight
-似此星辰非昨夜，为谁风霜立中宵？
+    <meta name="description" content="0.前言
 
 
-我的作品（精彩推荐）
-白夜助手爱音悦
+前面有同学问我，想要做一个Android 实战项目，问我有没有好的开源项目可以参考和练习？
 
-
-
-```
-"> 
+想想自己以前也是，当项目没有什么新任务的时候，想着自己写一个实战项目来来练练手，那拿什么项,"> 
     <meta name="author" content="WhiteNight"> 
     <link rel="alternative" href="atom.xml" title="白夜" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -50,7 +45,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://whitenight999.github.io"></a>
     <div title="播放/暂停" class="iconfont icon-play"></div>
-    <h3 class="subtitle">白夜</h3>
+    <h3 class="subtitle">【开源推荐】进阶实战，从一款音乐播放器开始</h3>
     <div class="social">
         <div>
             <div class="share">
@@ -65,23 +60,70 @@
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">白夜</h1>
+        <h1 class="title">【开源推荐】进阶实战，从一款音乐播放器开始</h1>
         <div class="stuff">
-            <span>五月 20, 2020</span>
+            <span>五月 22, 2020</span>
             
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%92%AD%E6%94%BE%E5%99%A8/" rel="tag">播放器</a></li></ul>
+
 
         </div>
         <div class="content markdown">
-            <h2 id="Welcome-to-WhiteNight"><a href="#Welcome-to-WhiteNight" class="headerlink" title=" Welcome to WhiteNight"></a><center> Welcome to WhiteNight</h2><blockquote>
-<p><em>似此星辰非昨夜，为谁风霜立中宵？</em></p>
+            <h4>0.前言</h4>
+
+<blockquote>
+<p>前面有同学问我，想要做一个Android 实战项目，问我有没有好的开源项目可以参考和练习？</p>
 </blockquote>
+<p>想想自己以前也是，当项目没有什么新任务的时候，想着自己写一个实战项目来来练练手，那拿什么项目来练手呢？我觉得最好的项目就是自己写一个音乐播放器。一个音乐播放器里几乎能包含Android 中的大部分常用技术，Android 的四大组件(Activity,Service,BroadcastRecevier,ContentProvider都有使用),自定义View、widgets组件，进程通讯、通知栏、网络相关、音频、视频相关技术等等。因此，如果你做完一个完整音乐播放器，那么对你自己的技术提升也不小。</p>
+<p>本篇文章就介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：</p>
+<h5>1. Timber</h5>
+<img src="https://upload-images.jianshu.io/upload_images/3513995-d0cbd76005b49fd9.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片"/>
+<p>Timber 是一款功能强大的开源音乐播放器，有如下功能：</p>
 <ul>
-<li><h3 id="我的作品（精彩推荐）"><a href="#我的作品（精彩推荐）" class="headerlink" title="我的作品（精彩推荐）"></a><font face="STCAIYUN" color="Dodgerblue">我的作品</font><font color="Skyblue" size="2" >（精彩推荐）</font><p></p></h3><blockquote>
-<p><a href="https://lanzous.com/b07fbwt5a" target="_blank" rel="noopener">白夜助手</a><br><a href="https://lanzous.com/b0ti24ud" target="_blank" rel="noopener">爱音悦</a></p>
-</blockquote>
-</li>
+<li>Material Design 设计</li>
+<li>歌曲、专辑、歌手 浏览</li>
+<li>创建、编辑播放列表</li>
+<li>桌面widgets控件</li>
+<li>主题切换</li>
+<li>支持Android手表和车载</li>
+<li>通知和歌词等等。</li>
 </ul>
-<p>```</p>
+<p>功能全面，界面遵循Material Design 设计规范，非常漂亮，里面也有一些炫酷的自定义控件，如果你想找一个开源项目来模仿和练习实战，这个项目是个不错的参考。</p>
+<p><strong><em>地址：</em></strong><a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fnaman14%2FTimber" target="_blank" rel="nofollow">https://github.com/naman14/Timber</a></p>
+<p>Github star: <strong><em>4.2k</em></strong></p>
+<h4>2. remusic(高仿网易云音乐app)</h4>
+<img src="https://upload-images.jianshu.io/upload_images/3513995-d88fd7fbea438ba3.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
+<p>网易云音乐应该算是国内最好音乐APP之一，我也是网易云音乐的忠实用户，不仅app界面美观，整个社区也是做的很好，在音乐推荐方面深的人心，几乎每一首都符合口味，网上更有流传了这样一张图：</p>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-fb9924be60e89a72.png?imageMogr2/auto-orient/strip|imageView2/2/w/450/format/webp" alt="图片" />
+<p>不装个网易云音乐，连女朋友都找不到（开个玩笑...）。</p>
+<p>而<strong>remusic</strong>是对网易乐音乐app的高仿，界面几乎一模一样， 功能很全面，项目中有使用一些优秀的开源框架：</p>
+<ul>
+<li>图片加载框架 Fresco</li>
+<li>网络框架：Retrofit+okhttp</li>
+<li>换肤：MagicaSakura</li>
+</ul>
+<p>还有一些自定义View ，如歌词控件、播放进度控件、暂定、播放控件等等。如果你想开发一款音乐播放器来实战进阶，remusic 是一个不错的参考开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Faa112901%2Fremusic" target="_blank" rel="nofollow">https://github.com/aa112901/remusic</a><br>
+Github star: <strong><em>3.9k</em></strong></p>
+<h4>3. ListenerMusicPlayer（高仿轻听app）</h4>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-a958f90aab22cc37.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
+<p>轻听是腾讯出品的一款Android本地音乐播放器，颜值爆表，非常小清新，整体设计运用Material Design风格，配合优雅的场景转换和涟漪效果、便捷的手势操作，让你一见倾心，保证你看到就会喜欢上它。</p>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-bb4b06bc646180b6.png?imageMogr2/auto-orient/strip|imageView2/2/w/1156/format/webp" alt="图片" />
+<p><strong>ListenerMusicPlayer</strong> 是高仿的 听听app界面和交互，使用 Lastfm Api 与 酷狗歌词Api。项目架构采用 mvp-clean，基于 Retrofit2 + Dagger2 + Rxjava + RxBus + Glide。</p>
+<p>里面也有一些炫酷的动画效果，是一个值得参考的开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fhefuyicoder%2FListenerMusicPlayer" target="_blank" rel="nofollow">https://github.com/hefuyicoder/ListenerMusicPlayer</a><br>
+Github star: <strong><em>1.9k</em></strong></p>
+<h4>4. android-UniversalMusicPlayer</h4>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-96eb9c47366823aa.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
+<p>android-UniversalMusicPlayer 是 google 的 一个音乐播放器示例App,没有炫酷库的UI,重点展示如何使用Android api 来打造一个自己的多媒体播放器。项目中不仅有手机上播放器的示例，更有多种其他平台，如平板、手表、车载、电视等等。是一个很好的学习多媒体相关api的开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fgooglesamples%2Fandroid-UniversalMusicPlayer" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
+<p>Github star:<strong><em>9k</em></strong></p>
+<h4>5. 其它推荐</h4>
+<p>MeetMusic：<a href="https://github.com/lijunyandev/MeetMusic" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
+<p>本地播放器：<a href="https://github.com/PonnyDong/android-" target="_blank" rel="nofollow">https://github.com/PonnyDong/android-r</a></p>
+<h4>6.总结</h4>
+<p>其实写一个音乐播放器还是挺锻炼人的，涉及的知识面广，对于初、中级Android 工程师适合。本篇文章介绍了4个优秀的开源音乐播放器，有兴趣的可以去看看研究一下。我相信写完后对你的帮助会很大的。如果你还有什么优秀的开源库推荐，欢迎文末留言。</p>
+<p>转载于简书，原文链接：<a href="https://www.jianshu.com/p/a880c4105494" target="_blank" rel="nofollow">https://www.jianshu.com/p/a880c4105494</a></p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
