@@ -1029,21 +1029,15 @@
     <title>白夜</title>
     <url>/2020/05/20/first/</url>
     <content><![CDATA[<h2 id="Welcome-to-WhiteNight"><a href="#Welcome-to-WhiteNight" class="headerlink" title=" Welcome to WhiteNight"></a><center> Welcome to WhiteNight</h2><blockquote>
-<p><em>似此星辰非昨夜，为谁风霜立中宵？</em></p>
+<p>Hello! 欢迎来到我的个人博客，虽然说之前零零碎碎也是弄了一些，但是这应该算是我的第一个真正意义上的个人博客。<br>之后我会不定期的在此博客上写一些原创内容或转载一些实用技巧（包含各个领域）</p>
 </blockquote>
-<ul>
-<li><h3 id="我的作品（精彩推荐）"><a href="#我的作品（精彩推荐）" class="headerlink" title="我的作品（精彩推荐）"></a><font face="STCAIYUN" color="Dodgerblue">我的作品</font><font color="Skyblue" size="2" >（精彩推荐）</font><p></p></h3><blockquote>
-<p><a href="https://lanzous.com/b07fbwt5a" target="_blank" rel="noopener">白夜助手</a><br><a href="https://lanzous.com/b0ti24ud" target="_blank" rel="noopener">爱音悦</a></p>
-</blockquote>
-</li>
-</ul>
-<p>```</p>
 ]]></content>
   </entry>
   <entry>
     <title>Markdown常用技巧总结</title>
     <url>/2020/05/22/markdown/</url>
-    <content><![CDATA[<h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h3 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h3><p>使用之前先来了解一下什么是Markdown。<br>百度搜索词条“Markdown” ，或者点<a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin" target="_blank" rel="noopener">Markdown</a>查看。</p>
+<h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="……"><a href="#……" class="headerlink" title="……"></a>……</h4><h3 id="2-文本类型"><a href="#2-文本类型" class="headerlink" title="2. 文本类型"></a>2. 文本类型</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">*斜体文本*    </span><br><span class="line">_斜体文本_  </span><br><span class="line">**粗体文本**    </span><br><span class="line">__粗体文本__  </span><br><span class="line">***粗斜体文本***    </span><br><span class="line">___粗斜体文本___  </span><br><span class="line">&#x3D;&#x3D;标记文本&#x3D;&#x3D;</span><br><span class="line">~~删除文本~~</span><br><span class="line">&gt; 引用文本</span><br><span class="line">&gt; &gt;嵌套引用文本</span><br><span class="line">&gt; &gt; &gt;套中套。。。</span><br><span class="line">^上标^</span><br><span class="line">~下标~</span><br></pre></td></tr></table></figure>
 <p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong><br><strong><em>粗斜体文本</em></strong><br>==标记文本==<br><del>删除文本</del></p>
 <blockquote>
@@ -1066,7 +1060,7 @@
 <h3 id="3-链接"><a href="#3-链接" class="headerlink" title="3. 链接"></a>3. 链接</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">文字链接 [链接名称](链接网址)  </span><br><span class="line"></span><br><span class="line">网址链接 &lt;链接网址&gt;</span><br></pre></td></tr></table></figure>
 
 
-<p>文字链接 <a href="https://www.github.io/whitenight999" target="_blank" rel="noopener">链接名称</a><br>网址链接 <a href="https://www.github.io/whitenight999" target="_blank" rel="noopener">https://www.github.io/whitenight999</a></p>
+<p>文字链接 <a href="http://whitenight999.top/2020/05/22/markdown/" target="_blank" rel="noopener">链接名称</a><br>网址链接 <a href="http://whitenight999.top/2020/05/22/markdown/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/22/markdown/</a></p>
 <h3 id="4-图片"><a href="#4-图片" class="headerlink" title="4. 图片"></a>4. 图片</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![图片替代文字](图片链接)</span><br><span class="line"></span><br><span class="line">![图片替代文字](图片链接 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://note.youdao.com/yws/public/resource/2c7a7435b06bbe0a96c9630310d7cf35/xmlnote/WEBRESOURCE2a5cb84df6dff823e7789c72118fe6da/144" alt="图片替代文字"> <img src="https://note.youdao.com/yws/public/resource/2c7a7435b06bbe0a96c9630310d7cf35/xmlnote/WEBRESOURCE2a5cb84df6dff823e7789c72118fe6da/144" alt="图片替代文字" title="可选标题"></p>
@@ -1091,7 +1085,7 @@
 <p>亦可作用于图片及其它地方</p>
 </blockquote>
 <h3 id="6-变量"><a href="#6-变量" class="headerlink" title="6. 变量"></a>6. 变量</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[变量名称][变量赋值]</span><br><span class="line">在结尾处结尾处输入：</span><br><span class="line">[变量赋值]：链接网址</span><br></pre></td></tr></table></figure>
-<p>[我的github][z]<br>[z]: <a href="https://www.github.io/whitenight999" target="_blank" rel="noopener">https://www.github.io/whitenight999</a></p>
+<p>[我的github][z]<br>[z]: <a href="http://whitenight999.top/2020/05/22/markdown/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/22/markdown/</a></p>
 <blockquote>
 <p>亦可用于图片(在开头加个 ！ 即可)</p>
 </blockquote>
@@ -1298,6 +1292,7 @@
 <td align="center"><code>&amp;#247;</code></td>
 </tr>
 </tbody></table>
+<p>本文地址: <a href="http://whitenight999.top/2020/05/22/markdown" target="_blank" rel="noopener">http://whitenight999.top/2020/05/22/markdown</a></p>
 ]]></content>
       <categories>
         <category>Markdown</category>
@@ -1373,28 +1368,67 @@ Github star: <strong><em>1.9k</em></strong></p>
       </tags>
   </entry>
   <entry>
-    <title>白夜</title>
-    <url>/2468/05/20/top/</url>
-    <content><![CDATA[<h2 id="Welcome-to-WhiteNight"><a href="#Welcome-to-WhiteNight" class="headerlink" title=" Welcome to WhiteNight."></a><center> Welcome to WhiteNight.</h2><center>.....................</center> 
-<center>...............</center>
-<center>.........</center>
-<center>...</center>
-<center>.........</center>
-<center>...............</center>
-<center>.....................</center>
-
-
-<div></div>
-
-<blockquote>
-<p><em>似此星辰非昨夜，为谁风霜立中宵？</em></p>
-</blockquote>
-<ul>
-<li><h3 id="我的作品（精彩推荐）"><a href="#我的作品（精彩推荐）" class="headerlink" title="我的作品（精彩推荐）"></a><font face="STCAIYUN" color="Dodgerblue">我的作品</font><font color="Skyblue" size="2" >（精彩推荐）</font><p></p></h3><blockquote>
-<p><a href="https://lanzous.com/b07fbwt5a" target="_blank" rel="noopener">白夜助手</a><br><a href="https://lanzous.com/b0ti24ud" target="_blank" rel="noopener">爱音悦</a></p>
-</blockquote>
-</li>
+    <title>Git的使用技巧</title>
+    <url>/2020/05/24/git/</url>
+    <content><![CDATA[<h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h3><p>使用之前先来了解一下什么是GIT。<br>百度搜索词条“Git” ，或者点<a href="https://baike.baidu.com/item/GIT/12647237?fr=aladdin" target="_blank" rel="noopener">GIT</a>查看。</p>
+<h3 id="2-下载与安装"><a href="#2-下载与安装" class="headerlink" title="2. 下载与安装"></a>2. 下载与安装</h3><p>百度搜索Git，找到Git官网，或者点<a href="https://git-scm.com/" target="_blank" rel="noopener">Git官网</a>快速进入。<br>进入官网后，找到“Downloads” 选择合适的版本进行下载，或者直接点击右方的 “Download 2.26.2 for Windows“ 快速下载。<br>下载完成后像正常软件一样安装即可。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE506b20d223a708d0d50818dc61e6b246/147" alt="图片加载失败"></p>
+<h3 id="3-SSH秘钥连接"><a href="#3-SSH秘钥连接" class="headerlink" title="3. SSH秘钥连接"></a>3. SSH秘钥连接</h3><p>安装完成Git后，在电脑桌面右键，选择“Git Bash Here”。在弹出的操作窗口输入<code>ssh-keygen</code>，敲回车确定，然后看到提示秘钥以保存在xxx路径下（如果没有出现提示就多敲几次回车）。<br>在提示的路径下找到“id_rsa”文件，复制文件内容。<br>登陆你的Github帐号，进入“settings”，点击SSH and GPG keys，输入刚才复制的密钥命名保存。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE6ff5e6d3dd7f78393f930894aeede947/150" alt="图片加载失败"><br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE80056c39b7529cd127d74e1abd8032dc/152" alt="图片加载失败"><br> <img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEc4f55dffcae5e9ea0e41d40da70dcc06/153" alt="图片加载失败"><br>  <img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEe9bf35896aa78582485aca080c09c04a/154" alt="图片加载失败"></p>
+<h3 id="3-Git的使用"><a href="#3-Git的使用" class="headerlink" title="3.Git的使用"></a>3.Git的使用</h3><ul>
+<li>下载<br>在任意路径下新建一个文件夹，作为Git操作的仓库。在此文件夹内右键，选择“Git Bash Here”。<br>在弹出的操作界面输入<code>git init</code> 回车确定。然后可以看到该路径下生成”.git” 文件夹。由于该文件夹是隐藏的，请先确认你的电脑是否显示隐藏文件（百度搜索：电脑如何显示隐藏文件）。<br>准备工作完成后，开始下载。<br>在Github中找到需要操作的仓库，点击”Clone or down”，复制链接。<br>在Git操作界面输入<code>git remote add origin 刚刚复制的网址</code> ，回车。然后输入 <code>git pull origin master</code>，回车。耐心等待下载完成（该过程可能需与输入你的Github用户名及密码，按照提示输入即可）。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEa4b62ecea5b9bb3f0d4129644092c74e/158" alt="图片加载失败"><br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE807cc77e5f5c4898b57044b40e7f4f07/156" alt="图片加载失败"></li>
+<li>上传<br>在之前创建的Git操作文件夹右键，选择“Git Bash Here”。<br>在弹出的操作界面输入“git add 需要上传的文件名” 回车确定（如果需要上传该路径下全部文件，就输入“git add .” 即可）。<br>输入<code>git commit -m &quot;文件备注（必填）&quot;</code>回车确定<br>输入<code>git push origin master</code>回车确定，耐心等待上传完成（该过程可能需与输入你的Github用户名及密码，按照提示输入即可）。<br>进入Github仓库，查看文件是否上传完成。</li>
 </ul>
+<p>原文地址：<a href="http://whitenight999.top/2020/05/24/git/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/24/git/</a></p>
 ]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些常用的html代码</title>
+    <url>/2020/05/22/html/</url>
+    <content><![CDATA[<p>网页的描述，关键字，作者及其他元素：<code>meta name=&quot;&quot; content=&quot;&quot;</code></p>
+<p>客户端脚本：<code>&lt;script&gt;window.alert(&#39;&#39;);&lt;script&gt;</code></p>
+<p>文档的样式信息：<code>&lt;style&gt;&lt;/style&gt;</code></p>
+<p>引进图片：<code>img src</code></p>
+<p>换行：<code>br</code></p>
+<p>超级链接：<code>a herf</code></p>
+<p>新的页面打开：<code>target=&quot;_blank&quot;</code></p>
+<p>无序列表：<code>&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</code></p>
+<p>有序列表：<code>&lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</code></p>
+<p>表格的页眉：<code>thead</code></p>
+<p>表格的主题：<code>tbody</code></p>
+<p>定义表格的页脚：<code>tfood</code></p>
+<p>定义表格：<code>table</code></p>
+<p>边框：<code>border</code></p>
+<p>单元格边框与内容的间距：<code>cellbadding</code></p>
+<p>单元格之间的间距：<code>cellspacing</code></p>
+<p>表格的表头：<code>th</code></p>
+<p>表格的行：<code>tr</code></p>
+<p>表格的单元：<code>td</code></p>
+<p>表单：<code>form action=&quot;浏览者输入的数据被传送到的地方&quot; methot=&quot;数据传送的方式&quot;(get或post)</code></p>
+<p>文本框：<code>&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;&quot;&gt;&lt;br&gt;</code></p>
+<p>密码框：<code>&lt;input type=&quot;password&quot; name=&quot;password&quot; value=&quot;&quot;&gt;&lt;br&gt;</code></p>
+<p>单选框：<code>radio</code>   当type=radio时为单选框</p>
+<p>多选框：<code>checkbox</code>  当type=checkbox时为多选框</p>
+<p>默认选项：<code>checked</code></p>
+<p><code>[]</code>:多个值，数组</p>
+<p>下拉列表框：<code>&lt;select name=&quot;&quot;&gt;选项&lt;option value=&quot;&quot;&gt;&lt;/option&gt;&lt;/select&gt;</code></p>
+<p>默认选中：<code>selected</code></p>
+<p>多行文本：<code>&lt;textarea name&quot;&quot;&gt;&lt;/textarea&gt;</code></p>
+<p>行数：<code>cols</code></p>
+<p>列数：<code>rows</code></p>
+<p>上传图片头像或场景：<code>&lt;input type=&quot;file&quot;/&gt;</code></p>
+<p>提交按钮：<code>&lt;input type=&quot;submit&quot; value=提交&gt;</code></p>
+<p>重置按钮：<code>&lt;input type=&quot;reset&quot; value=重置&gt;</code><br>————————————————<br>转载于CSDN<br>原文链接：<a href="https://blog.csdn.net/qySWKqy/java/article/details/80035672" target="_blank" rel="noopener">https://blog.csdn.net/qySWKqy/java/article/details/80035672</a></p>
+]]></content>
+      <categories>
+        <category>Html</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+      </tags>
   </entry>
 </search>
