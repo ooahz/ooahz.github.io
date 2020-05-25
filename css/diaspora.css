@@ -406,193 +406,131 @@ img {
 
 /*about*/
 
-:root{
-    --primary-color:#71b3dd;
-    --primary-dark-color: #4489b5;
-    --text-color-gray: #8b979f;
-    --text-color-light-gray: #c1c7cb;
-    --text-color-dark-gray: #5a6f7c;
+.profile-card{ /*主卡片*/
+    position: relative; /*相对定位*/
+    overflow: hidden; /*溢出隐藏*/
+    text-align: center; /*文字居中*/
+    box-shadow: 0 0 10px #00000070; /**/
+	justify-content: center; /*主轴*/
+    min-height: 100vh; /*最小高度*/
+	margin: 20px; /*外边距*/
+	max-width: 500px;
+	background: url(../blogpic/1.jpg);
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+.top-section{ /*上部*/
+    padding:60px 40px;
+    background: #74b9ffaa;
 }
-.wrapper{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.message,.notif{ /*上部两个图标*/
+    position: absolute; /*绝对定位*/
+    top: 40px; /*距上部*/
+    font-size: 20px;
+    cursor: pointer; /*鼠标样式*/
+    color: #ffffff50; /*颜色*/
 }
- 
-.profile-card{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    column-gap: 12px;
-    width: 90vh;
-	height: 80vh;
-	min-height: 520px;
-	max-height: 999px;	
-    box-shadow: 0 0 22px 3px rgba(0, 0, 0, .18);
+.message{
+    right: 40px;
 }
- 
-.profile-img{
-    grid-column: 8 / 13;
-	width: 100%;
-    max-width: 238px;
-	float: center;
-    overflow: hidden;
-    align-self: start;
-    justify-self: end;
+.notif{
+    left:40px;
 }
- 
-.profile-img img{
-    width: 180%;
-	height: 80vh;
-	min-height: 520px;
-	max-height: 666px;		
-    object-fit: cover;
-    transform: translate(0px,0px);
-}
-  
-.content{
-    grid-column: 1 / 8;
-    padding:  8px 28px 20px 33px;
+.pic{
     position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto auto 20px auto;
+    padding: 4px;
+    border: 2px solid #6a89cc; /*边框*/
+    border-radius: 50%; /*圆角*/
 }
-
-nav {
-    margin-bottom: 24px;
-    display: flex;
-    position: relative;
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
-nav a{
-    color: var(--text-color-gray);
-    text-decoration: none;
-}
-nav a.active{
-    color: var(--primary-dark-color);
-}
- 
-nav a:not(:last-child){
-    margin-right: 40px;
-}
- 
-nav .indicator{
-    height: 2px;
-    
-    background: var(--primary-dark-color);
-    position: absolute;
-    bottom: -7px;
+.pic::before{ /*之前添加*/
+    content: ""; /*内容*/
+    width: 100%;
+    height: 100%;
+    position:absolute; /*绝对定位*/
+    border: 1px solid #3c6382;
     left: 0;
-    transition: .4s;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    animation: wava 1.5s infinite linear; /*动画 无限重复 */
 }
- 
-.content section{
-    position: absolute;
-    opacity: 0;
-    transition: .3s ease-out;
+@keyframes wava{
+    to{
+        transform: scale(1.5); /*放大*/
+        opacity: 0.5; /*透明度*/
+    }
 }
- 
-.content section.active-section{
-    opacity: 1;
+.name{
+    color:#f1f1f1; /*字体颜色*/
+    font-size: 28px; /*字体大小*/
+    letter-spacing: 2px; /*字符间距*/
+    text-transform: uppercase; /*字体大写*/
 }
- 
-.personal-info{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
- 
-.title h1{
-    font-size: 2em;
-    font-weight: 500;
-}
- 
-.title p{
-    color: var(--text-color-gray);
-    margin: 6px 0 18px 0;
-}
-  
-.follow-btn{
-    justify-self: end;
-    height: 30px;
-    background: var(--primary-color);
-    border: none;
-    color: white;
-    padding: 0 27px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 30px;
-}
- 
-.follow-btn .fas{
-    font-size: 10px;
-    margin-right: 6px;
-}
- 
-.about-me{
-    color: var(--text-color-dark-gray);
-    font-weight: 300;
-    text-align: justify;
-}
- 
-footer{
-    margin-top: 70px;
-}
- 
-footer ul {
-    display: flex;
-}
- 
-footer ul li {
-    list-style: none;
-}
- 
-footer ul li:not(:last-child){
-    margin-right: 30px;
-}
- 
-footer .fab{
-    color: var(--primary-color);
-    font-size: 24px;
-}
- 
 
- 
-/* 工作经历 */
-.work-exps{
-    color: var(--text-color-gray);
-    display: grid;
-    grid-template-rows: repeat(3,minmax(80px,auto));
+.tag{
+    font-size: 18px;
+    color: #fff;
 }
- 
-.work-exp-item{
-    display: grid;
-    grid-template-columns: 5fr 1fr 7fr;
+.bottom-section{
+    position: relative;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
+    color:#555;
+    padding: 73px 40px;
+    font-size: 21px;
+    text-transform: uppercase;
 }
- 
-.mposition{
-    font-size: 18px;
-    font-weight: 500;
+.border{ /*竖线*/
+    width: 1px;
+    height: 20px;
+    background: #bbb;
+    margin: 0 30px;
 }
- 
-.seperator{
-    height: 43px;
-    border-left: 2px dotted #eaeff2;
-}
- 
-.time{
-    color:var(--text-color-light-gray);
-}
- 
-.company{
+.bottom-section span{
     font-size: 14px;
-    color: var(--text-color-dark-gray);
-    margin-top: 9px;
+    display: block;
+}
+.social-media{
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    left: 0;
+    z-index: 1; /*z轴定位*/
+}
+.social-media i{
+    width: 60px;
+    height: 60px;
+    background: #448aff;
+    border-radius: 50%;
+    color: #f1f1f1;
+    font-size: 20px;
+    line-height: 60px !important; /*行高*/
+    margin: 0 10px;
+    position: relative;
+}
+.social-media i::after{ /*之后添加*/
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #e74c3c;
+    left:0;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.99);
+    transition: 0.4s linear;
+}
+.social-media i:hover:after{ /*悬停时*/
+    transform: scale(1.4); /*放大*/
+    opacity: 0;
 }
