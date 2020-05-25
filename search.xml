@@ -24,24 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>白夜</title>
-    <url>/2020/05/20/first/</url>
-    <content><![CDATA[<h2 id="Welcome-to-WhiteNight"><a href="#Welcome-to-WhiteNight" class="headerlink" title=" Welcome to WhiteNight"></a><center> Welcome to WhiteNight</h2><blockquote>
-<p>Hello! 欢迎来到我的个人博客，虽然说之前零零碎碎也是弄了一些，但是这应该算是我的第一个真正意义上的个人博客。<br>之后我会不定期的在此博客上写一些原创内容或转载一些实用技巧（包含各个领域）</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>友链</title>
-    <url>/2020/05/25/friends/</url>
-    <content><![CDATA[<h3 id="友链格式："><a href="#友链格式：" class="headerlink" title="友链格式："></a>友链格式：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">博客名：白夜</span><br><span class="line">地址：http:&#x2F;&#x2F;whitenight999.top&#x2F;</span><br><span class="line">头像：http:&#x2F;&#x2F;whitenight999.top&#x2F;head.jpg</span><br><span class="line">简介：似此星辰非昨夜，为谁风露立中宵？</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>欢迎各位大佬们互换友链<br>原则上只要不违法都是可以的。<br>在下方评论区，按照格式回复即可。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>每日一文</title>
     <url>/2020/05/21/blog/</url>
     <content><![CDATA[<h1><center>饮茶时光</h1>
@@ -66,89 +48,12 @@
       </tags>
   </entry>
   <entry>
-    <title>Git的使用技巧</title>
-    <url>/2020/05/24/git/</url>
-    <content><![CDATA[<h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h3><p>使用之前先来了解一下什么是GIT。<br>百度搜索词条“Git” ，或者点<a href="https://baike.baidu.com/item/GIT/12647237?fr=aladdin" target="_blank" rel="noopener">GIT</a>查看。</p>
-<h3 id="2-下载与安装"><a href="#2-下载与安装" class="headerlink" title="2. 下载与安装"></a>2. 下载与安装</h3><p>百度搜索Git，找到Git官网，或者点<a href="https://git-scm.com/" target="_blank" rel="noopener">Git官网</a>快速进入。<br>进入官网后，找到“Downloads” 选择合适的版本进行下载，或者直接点击右方的 “Download 2.26.2 for Windows“ 快速下载。<br>下载完成后像正常软件一样安装即可。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE506b20d223a708d0d50818dc61e6b246/147" alt="图片加载失败"></p>
-<h3 id="3-SSH秘钥连接"><a href="#3-SSH秘钥连接" class="headerlink" title="3. SSH秘钥连接"></a>3. SSH秘钥连接</h3><p>安装完成Git后，在电脑桌面右键，选择“Git Bash Here”。在弹出的操作窗口输入<code>ssh-keygen</code>，敲回车确定，然后看到提示秘钥以保存在xxx路径下（如果没有出现提示就多敲几次回车）。<br>在提示的路径下找到“id_rsa”文件，复制文件内容。<br>登陆你的Github帐号，进入“settings”，点击SSH and GPG keys，输入刚才复制的密钥命名保存。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE6ff5e6d3dd7f78393f930894aeede947/150" alt="图片加载失败"><br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE80056c39b7529cd127d74e1abd8032dc/152" alt="图片加载失败"><br> <img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEc4f55dffcae5e9ea0e41d40da70dcc06/153" alt="图片加载失败"><br>  <img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEe9bf35896aa78582485aca080c09c04a/154" alt="图片加载失败"></p>
-<h3 id="3-Git的使用"><a href="#3-Git的使用" class="headerlink" title="3.Git的使用"></a>3.Git的使用</h3><ul>
-<li>下载<br>在任意路径下新建一个文件夹，作为Git操作的仓库。在此文件夹内右键，选择“Git Bash Here”。<br>在弹出的操作界面输入<code>git init</code> 回车确定。然后可以看到该路径下生成”.git” 文件夹。由于该文件夹是隐藏的，请先确认你的电脑是否显示隐藏文件（百度搜索：电脑如何显示隐藏文件）。<br>准备工作完成后，开始下载。<br>在Github中找到需要操作的仓库，点击”Clone or down”，复制链接。<br>在Git操作界面输入<code>git remote add origin 刚刚复制的网址</code> ，回车。然后输入 <code>git pull origin master</code>，回车。耐心等待下载完成（该过程可能需与输入你的Github用户名及密码，按照提示输入即可）。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEa4b62ecea5b9bb3f0d4129644092c74e/158" alt="图片加载失败"><br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE807cc77e5f5c4898b57044b40e7f4f07/156" alt="图片加载失败"></li>
-<li>上传<br>在之前创建的Git操作文件夹右键，选择“Git Bash Here”。<br>在弹出的操作界面输入“git add 需要上传的文件名” 回车确定（如果需要上传该路径下全部文件，就输入“git add .” 即可）。<br>输入<code>git commit -m &quot;文件备注（必填）&quot;</code>回车确定<br>输入<code>git push origin master</code>回车确定，耐心等待上传完成（该过程可能需与输入你的Github用户名及密码，按照提示输入即可）。<br>进入Github仓库，查看文件是否上传完成。</li>
-</ul>
-<p>原文地址：<a href="http://whitenight999.top/2020/05/24/git/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/24/git/</a></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-      </categories>
-      <tags>
-        <tag>技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【开源推荐】进阶实战，从一款音乐播放器开始</title>
-    <url>/2020/05/22/music/</url>
-    <content><![CDATA[<h4>0.前言</h4>
-
-<blockquote>
-<p>前面有同学问我，想要做一个Android 实战项目，问我有没有好的开源项目可以参考和练习？</p>
+    <title>白夜</title>
+    <url>/2020/05/20/first/</url>
+    <content><![CDATA[<h2 id="Welcome-to-WhiteNight"><a href="#Welcome-to-WhiteNight" class="headerlink" title=" Welcome to WhiteNight"></a><center> Welcome to WhiteNight</h2><blockquote>
+<p>Hello! 欢迎来到我的个人博客，虽然说之前零零碎碎也是弄了一些，但是这应该算是我的第一个真正意义上的个人博客。<br>之后我会不定期的在此博客上写一些原创内容或转载一些实用技巧（包含各个领域）</p>
 </blockquote>
-<p>想想自己以前也是，当项目没有什么新任务的时候，想着自己写一个实战项目来来练练手，那拿什么项目来练手呢？我觉得最好的项目就是自己写一个音乐播放器。一个音乐播放器里几乎能包含Android 中的大部分常用技术，Android 的四大组件(Activity,Service,BroadcastRecevier,ContentProvider都有使用),自定义View、widgets组件，进程通讯、通知栏、网络相关、音频、视频相关技术等等。因此，如果你做完一个完整音乐播放器，那么对你自己的技术提升也不小。</p>
-<p>本篇文章就介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：</p>
-<h5>1. Timber</h5>
-<img src="https://upload-images.jianshu.io/upload_images/3513995-d0cbd76005b49fd9.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片"/>
-<p>Timber 是一款功能强大的开源音乐播放器，有如下功能：</p>
-<ul>
-<li>Material Design 设计</li>
-<li>歌曲、专辑、歌手 浏览</li>
-<li>创建、编辑播放列表</li>
-<li>桌面widgets控件</li>
-<li>主题切换</li>
-<li>支持Android手表和车载</li>
-<li>通知和歌词等等。</li>
-</ul>
-<p>功能全面，界面遵循Material Design 设计规范，非常漂亮，里面也有一些炫酷的自定义控件，如果你想找一个开源项目来模仿和练习实战，这个项目是个不错的参考。</p>
-<p><strong><em>地址：</em></strong><a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fnaman14%2FTimber" target="_blank" rel="nofollow">https://github.com/naman14/Timber</a></p>
-<p>Github star: <strong><em>4.2k</em></strong></p>
-<h4>2. remusic(高仿网易云音乐app)</h4>
-<img src="https://upload-images.jianshu.io/upload_images/3513995-d88fd7fbea438ba3.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
-<p>网易云音乐应该算是国内最好音乐APP之一，我也是网易云音乐的忠实用户，不仅app界面美观，整个社区也是做的很好，在音乐推荐方面深的人心，几乎每一首都符合口味，网上更有流传了这样一张图：</p>
- <img src="https://upload-images.jianshu.io/upload_images/3513995-fb9924be60e89a72.png?imageMogr2/auto-orient/strip|imageView2/2/w/450/format/webp" alt="图片" />
-<p>不装个网易云音乐，连女朋友都找不到（开个玩笑...）。</p>
-<p>而<strong>remusic</strong>是对网易乐音乐app的高仿，界面几乎一模一样， 功能很全面，项目中有使用一些优秀的开源框架：</p>
-<ul>
-<li>图片加载框架 Fresco</li>
-<li>网络框架：Retrofit+okhttp</li>
-<li>换肤：MagicaSakura</li>
-</ul>
-<p>还有一些自定义View ，如歌词控件、播放进度控件、暂定、播放控件等等。如果你想开发一款音乐播放器来实战进阶，remusic 是一个不错的参考开源项目。</p>
-<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Faa112901%2Fremusic" target="_blank" rel="nofollow">https://github.com/aa112901/remusic</a><br>
-Github star: <strong><em>3.9k</em></strong></p>
-<h4>3. ListenerMusicPlayer（高仿轻听app）</h4>
- <img src="https://upload-images.jianshu.io/upload_images/3513995-a958f90aab22cc37.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
-<p>轻听是腾讯出品的一款Android本地音乐播放器，颜值爆表，非常小清新，整体设计运用Material Design风格，配合优雅的场景转换和涟漪效果、便捷的手势操作，让你一见倾心，保证你看到就会喜欢上它。</p>
- <img src="https://upload-images.jianshu.io/upload_images/3513995-bb4b06bc646180b6.png?imageMogr2/auto-orient/strip|imageView2/2/w/1156/format/webp" alt="图片" />
-<p><strong>ListenerMusicPlayer</strong> 是高仿的 听听app界面和交互，使用 Lastfm Api 与 酷狗歌词Api。项目架构采用 mvp-clean，基于 Retrofit2 + Dagger2 + Rxjava + RxBus + Glide。</p>
-<p>里面也有一些炫酷的动画效果，是一个值得参考的开源项目。</p>
-<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fhefuyicoder%2FListenerMusicPlayer" target="_blank" rel="nofollow">https://github.com/hefuyicoder/ListenerMusicPlayer</a><br>
-Github star: <strong><em>1.9k</em></strong></p>
-<h4>4. android-UniversalMusicPlayer</h4>
- <img src="https://upload-images.jianshu.io/upload_images/3513995-96eb9c47366823aa.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
-<p>android-UniversalMusicPlayer 是 google 的 一个音乐播放器示例App,没有炫酷库的UI,重点展示如何使用Android api 来打造一个自己的多媒体播放器。项目中不仅有手机上播放器的示例，更有多种其他平台，如平板、手表、车载、电视等等。是一个很好的学习多媒体相关api的开源项目。</p>
-<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fgooglesamples%2Fandroid-UniversalMusicPlayer" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
-<p>Github star:<strong><em>9k</em></strong></p>
-<h4>5. 其它推荐</h4>
-<p>MeetMusic：<a href="https://github.com/lijunyandev/MeetMusic" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
-<p>本地播放器：<a href="https://github.com/PonnyDong/android-" target="_blank" rel="nofollow">https://github.com/PonnyDong/android-r</a></p>
-<h4>6.总结</h4>
-<p>其实写一个音乐播放器还是挺锻炼人的，涉及的知识面广，对于初、中级Android 工程师适合。本篇文章介绍了4个优秀的开源音乐播放器，有兴趣的可以去看看研究一下。我相信写完后对你的帮助会很大的。如果你还有什么优秀的开源库推荐，欢迎文末留言。</p>
-<p>转载于简书，原文链接：<a href="https://www.jianshu.com/p/a880c4105494" target="_blank" rel="nofollow">https://www.jianshu.com/p/a880c4105494</a></p>
 ]]></content>
-      <categories>
-        <category>安卓</category>
-      </categories>
-      <tags>
-        <tag>播放器</tag>
-      </tags>
   </entry>
   <entry>
     <title>Markdown常用技巧总结</title>
@@ -430,6 +335,72 @@ Github star: <strong><em>1.9k</em></strong></p>
       </categories>
       <tags>
         <tag>技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【开源推荐】进阶实战，从一款音乐播放器开始</title>
+    <url>/2020/05/22/music/</url>
+    <content><![CDATA[<h4>0.前言</h4>
+
+<blockquote>
+<p>前面有同学问我，想要做一个Android 实战项目，问我有没有好的开源项目可以参考和练习？</p>
+</blockquote>
+<p>想想自己以前也是，当项目没有什么新任务的时候，想着自己写一个实战项目来来练练手，那拿什么项目来练手呢？我觉得最好的项目就是自己写一个音乐播放器。一个音乐播放器里几乎能包含Android 中的大部分常用技术，Android 的四大组件(Activity,Service,BroadcastRecevier,ContentProvider都有使用),自定义View、widgets组件，进程通讯、通知栏、网络相关、音频、视频相关技术等等。因此，如果你做完一个完整音乐播放器，那么对你自己的技术提升也不小。</p>
+<p>本篇文章就介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：</p>
+<h5>1. Timber</h5>
+<img src="https://upload-images.jianshu.io/upload_images/3513995-d0cbd76005b49fd9.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片"/>
+<p>Timber 是一款功能强大的开源音乐播放器，有如下功能：</p>
+<ul>
+<li>Material Design 设计</li>
+<li>歌曲、专辑、歌手 浏览</li>
+<li>创建、编辑播放列表</li>
+<li>桌面widgets控件</li>
+<li>主题切换</li>
+<li>支持Android手表和车载</li>
+<li>通知和歌词等等。</li>
+</ul>
+<p>功能全面，界面遵循Material Design 设计规范，非常漂亮，里面也有一些炫酷的自定义控件，如果你想找一个开源项目来模仿和练习实战，这个项目是个不错的参考。</p>
+<p><strong><em>地址：</em></strong><a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fnaman14%2FTimber" target="_blank" rel="nofollow">https://github.com/naman14/Timber</a></p>
+<p>Github star: <strong><em>4.2k</em></strong></p>
+<h4>2. remusic(高仿网易云音乐app)</h4>
+<img src="https://upload-images.jianshu.io/upload_images/3513995-d88fd7fbea438ba3.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
+<p>网易云音乐应该算是国内最好音乐APP之一，我也是网易云音乐的忠实用户，不仅app界面美观，整个社区也是做的很好，在音乐推荐方面深的人心，几乎每一首都符合口味，网上更有流传了这样一张图：</p>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-fb9924be60e89a72.png?imageMogr2/auto-orient/strip|imageView2/2/w/450/format/webp" alt="图片" />
+<p>不装个网易云音乐，连女朋友都找不到（开个玩笑...）。</p>
+<p>而<strong>remusic</strong>是对网易乐音乐app的高仿，界面几乎一模一样， 功能很全面，项目中有使用一些优秀的开源框架：</p>
+<ul>
+<li>图片加载框架 Fresco</li>
+<li>网络框架：Retrofit+okhttp</li>
+<li>换肤：MagicaSakura</li>
+</ul>
+<p>还有一些自定义View ，如歌词控件、播放进度控件、暂定、播放控件等等。如果你想开发一款音乐播放器来实战进阶，remusic 是一个不错的参考开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Faa112901%2Fremusic" target="_blank" rel="nofollow">https://github.com/aa112901/remusic</a><br>
+Github star: <strong><em>3.9k</em></strong></p>
+<h4>3. ListenerMusicPlayer（高仿轻听app）</h4>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-a958f90aab22cc37.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
+<p>轻听是腾讯出品的一款Android本地音乐播放器，颜值爆表，非常小清新，整体设计运用Material Design风格，配合优雅的场景转换和涟漪效果、便捷的手势操作，让你一见倾心，保证你看到就会喜欢上它。</p>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-bb4b06bc646180b6.png?imageMogr2/auto-orient/strip|imageView2/2/w/1156/format/webp" alt="图片" />
+<p><strong>ListenerMusicPlayer</strong> 是高仿的 听听app界面和交互，使用 Lastfm Api 与 酷狗歌词Api。项目架构采用 mvp-clean，基于 Retrofit2 + Dagger2 + Rxjava + RxBus + Glide。</p>
+<p>里面也有一些炫酷的动画效果，是一个值得参考的开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fhefuyicoder%2FListenerMusicPlayer" target="_blank" rel="nofollow">https://github.com/hefuyicoder/ListenerMusicPlayer</a><br>
+Github star: <strong><em>1.9k</em></strong></p>
+<h4>4. android-UniversalMusicPlayer</h4>
+ <img src="https://upload-images.jianshu.io/upload_images/3513995-96eb9c47366823aa.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="图片" />
+<p>android-UniversalMusicPlayer 是 google 的 一个音乐播放器示例App,没有炫酷库的UI,重点展示如何使用Android api 来打造一个自己的多媒体播放器。项目中不仅有手机上播放器的示例，更有多种其他平台，如平板、手表、车载、电视等等。是一个很好的学习多媒体相关api的开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fgooglesamples%2Fandroid-UniversalMusicPlayer" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
+<p>Github star:<strong><em>9k</em></strong></p>
+<h4>5. 其它推荐</h4>
+<p>MeetMusic：<a href="https://github.com/lijunyandev/MeetMusic" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
+<p>本地播放器：<a href="https://github.com/PonnyDong/android-" target="_blank" rel="nofollow">https://github.com/PonnyDong/android-r</a></p>
+<h4>6.总结</h4>
+<p>其实写一个音乐播放器还是挺锻炼人的，涉及的知识面广，对于初、中级Android 工程师适合。本篇文章介绍了4个优秀的开源音乐播放器，有兴趣的可以去看看研究一下。我相信写完后对你的帮助会很大的。如果你还有什么优秀的开源库推荐，欢迎文末留言。</p>
+<p>转载于简书，原文链接：<a href="https://www.jianshu.com/p/a880c4105494" target="_blank" rel="nofollow">https://www.jianshu.com/p/a880c4105494</a></p>
+]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>播放器</tag>
       </tags>
   </entry>
   <entry>
@@ -1477,5 +1448,34 @@ Github star: <strong><em>1.9k</em></strong></p>
       <tags>
         <tag>技巧</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Git的使用技巧</title>
+    <url>/2020/05/24/git/</url>
+    <content><![CDATA[<h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h3><p>使用之前先来了解一下什么是GIT。<br>百度搜索词条“Git” ，或者点<a href="https://baike.baidu.com/item/GIT/12647237?fr=aladdin" target="_blank" rel="noopener">GIT</a>查看。</p>
+<h3 id="2-下载与安装"><a href="#2-下载与安装" class="headerlink" title="2. 下载与安装"></a>2. 下载与安装</h3><p>百度搜索Git，找到Git官网，或者点<a href="https://git-scm.com/" target="_blank" rel="noopener">Git官网</a>快速进入。<br>进入官网后，找到“Downloads” 选择合适的版本进行下载，或者直接点击右方的 “Download 2.26.2 for Windows“ 快速下载。<br>下载完成后像正常软件一样安装即可。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE506b20d223a708d0d50818dc61e6b246/147" alt="图片加载失败"></p>
+<h3 id="3-SSH秘钥连接"><a href="#3-SSH秘钥连接" class="headerlink" title="3. SSH秘钥连接"></a>3. SSH秘钥连接</h3><p>安装完成Git后，在电脑桌面右键，选择“Git Bash Here”。在弹出的操作窗口输入<code>ssh-keygen</code>，敲回车确定，然后看到提示秘钥以保存在xxx路径下（如果没有出现提示就多敲几次回车）。<br>在提示的路径下找到“id_rsa”文件，复制文件内容。<br>登陆你的Github帐号，进入“settings”，点击SSH and GPG keys，输入刚才复制的密钥命名保存。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE6ff5e6d3dd7f78393f930894aeede947/150" alt="图片加载失败"><br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE80056c39b7529cd127d74e1abd8032dc/152" alt="图片加载失败"><br> <img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEc4f55dffcae5e9ea0e41d40da70dcc06/153" alt="图片加载失败"><br>  <img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEe9bf35896aa78582485aca080c09c04a/154" alt="图片加载失败"></p>
+<h3 id="3-Git的使用"><a href="#3-Git的使用" class="headerlink" title="3.Git的使用"></a>3.Git的使用</h3><ul>
+<li>下载<br>在任意路径下新建一个文件夹，作为Git操作的仓库。在此文件夹内右键，选择“Git Bash Here”。<br>在弹出的操作界面输入<code>git init</code> 回车确定。然后可以看到该路径下生成”.git” 文件夹。由于该文件夹是隐藏的，请先确认你的电脑是否显示隐藏文件（百度搜索：电脑如何显示隐藏文件）。<br>准备工作完成后，开始下载。<br>在Github中找到需要操作的仓库，点击”Clone or down”，复制链接。<br>在Git操作界面输入<code>git remote add origin 刚刚复制的网址</code> ，回车。然后输入 <code>git pull origin master</code>，回车。耐心等待下载完成（该过程可能需与输入你的Github用户名及密码，按照提示输入即可）。<br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCEa4b62ecea5b9bb3f0d4129644092c74e/158" alt="图片加载失败"><br><img src="https://note.youdao.com/yws/public/resource/f144829e808076bd63c7acd32f33e61d/xmlnote/WEBRESOURCE807cc77e5f5c4898b57044b40e7f4f07/156" alt="图片加载失败"></li>
+<li>上传<br>在之前创建的Git操作文件夹右键，选择“Git Bash Here”。<br>在弹出的操作界面输入“git add 需要上传的文件名” 回车确定（如果需要上传该路径下全部文件，就输入“git add .” 即可）。<br>输入<code>git commit -m &quot;文件备注（必填）&quot;</code>回车确定<br>输入<code>git push origin master</code>回车确定，耐心等待上传完成（该过程可能需与输入你的Github用户名及密码，按照提示输入即可）。<br>进入Github仓库，查看文件是否上传完成。</li>
+</ul>
+<p>原文地址：<a href="http://whitenight999.top/2020/05/24/git/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/24/git/</a></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>友链</title>
+    <url>/2020/05/25/friends/</url>
+    <content><![CDATA[<h3 id="友链格式："><a href="#友链格式：" class="headerlink" title="友链格式："></a>友链格式：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">博客名：白夜</span><br><span class="line">地址：http:&#x2F;&#x2F;whitenight999.top&#x2F;</span><br><span class="line">头像：http:&#x2F;&#x2F;whitenight999.top&#x2F;head.jpg</span><br><span class="line">简介：似此星辰非昨夜，为谁风露立中宵？</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>欢迎各位大佬们互换友链<br>原则上只要不违法都是可以的。<br>在下方评论区，按照格式回复即可。</p>
+</blockquote>
+]]></content>
   </entry>
 </search>
