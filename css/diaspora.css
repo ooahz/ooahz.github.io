@@ -431,10 +431,10 @@ img {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     column-gap: 12px;
-    width: 627px;
+    width: 90vh;
 	height: 80vh;
 	min-height: 520px;
-	max-height: 666px;	
+	max-height: 999px;	
     box-shadow: 0 0 22px 3px rgba(0, 0, 0, .18);
 }
  
