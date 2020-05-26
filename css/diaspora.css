@@ -356,7 +356,7 @@ img {
 	min-width: 275px;
     padding: 20px 10px 20px;
 	float: left;
-    margin: 100px 15px 50px;
+    margin: 55px 15px 30px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 4px 0px #448aff, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
@@ -381,12 +381,12 @@ img {
 }
 
 .fcontent {
-    margin: 15px;
+    margin: 12px;
     min-height: 60px;
 	top: 7px;
 }
 .bottom {
-    line-height: 15px;
+    line-height: 10px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -394,10 +394,10 @@ img {
 .bottom p::after {
     display: inline-block;
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    margin: 1px 10px;
+    margin: 1px 5px;
     background: rgba(0, 0, 0, 0.05);
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
     border-bottom: 1px solid #fff;
@@ -412,10 +412,11 @@ img {
     text-align: center; /*文字居中*/
     box-shadow: 0 0 10px #00000070; /**/
 	justify-content: center; /*主轴*/
-    min-height: 100vh; /*最小高度*/
+    min-height: 90vh; /*最小高度*/
 	margin: 20px; /*外边距*/
 	max-width: 500px;
 	background: url(../blogpic/1.jpg);
+	border-radius: 5px;
 }
 .top-section{ /*上部*/
     padding:60px 40px;
@@ -463,29 +464,29 @@ img {
 @keyframes wava{
     to{
         transform: scale(1.5); /*放大*/
-        opacity: 0.5; /*透明度*/
+        opacity: 0.7; /*透明度*/
     }
 }
 .name{
-    color:#f1f1f1; /*字体颜色*/
-    font-size: 28px; /*字体大小*/
+    color:#fff; /*字体颜色*/
+    font-size: 26px; /*字体大小*/
     letter-spacing: 2px; /*字符间距*/
     text-transform: uppercase; /*字体大写*/
 }
 
 .tag{
-    font-size: 18px;
-    color: #fff;
+    font-size: 14px;
+    color: #f1f1f1;
 }
 .bottom-section{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #f2f2f2;
     color:#555;
-    padding: 73px 15px;
-    font-size: 21px;
+    padding: 66px 15px;
+    font-size: 19px;
     text-transform: uppercase;
 }
 .border{ /*竖线*/
@@ -506,13 +507,13 @@ img {
     z-index: 1; /*z轴定位*/
 }
 .social-media i{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     background: #448aff;
     border-radius: 50%;
     color: #f1f1f1;
-    font-size: 20px;
-    line-height: 60px !important; /*行高*/
+    font-size: 18px;
+    line-height: 55px !important; /*行高*/
     margin: 0 10px;
     position: relative;
 }
