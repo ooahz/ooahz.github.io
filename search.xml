@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>每日一文</title>
+    <title>林中猫的故事</title>
     <url>/2020/05/25/5251/</url>
     <content><![CDATA[<h1><center>林中猫的故事</h1>
 <p align=center> <font face="微软雅黑" size="3" color="grey">彭蒂.哈恩帕</font> </p>
@@ -17,14 +17,14 @@
 <p>当暴风雪开始平息下来的时候，一阵阵野兽的嚎叫声在荒原上空回响。在森林某隐蔽地方，狐狸仰起了咀嚼的嘴巴……如果生命之火在某个物体中熄灭了，那么，它仅仅是为了滋养尚未熄灭的生命。如此周而复始，循环不已。</p>
 ]]></content>
       <categories>
-        <category>其它</category>
+        <category>每日一文</category>
       </categories>
       <tags>
-        <tag>article</tag>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
-    <title>每日一文</title>
+    <title>饮茶时光</title>
     <url>/2020/05/21/blog/</url>
     <content><![CDATA[<h1><center>饮茶时光</h1>
 <p align=center> <font face="微软雅黑" size="3" color="grey">梁文道</font> </p>
@@ -41,10 +41,10 @@
 <p>为了这段时间，我可以不介意桌上的茶具是壶还是盅，更可以忘记那只虾饺的饺皮到底折了几折。可惜的是，比起好茶和好点心，这种已经失落了的时间观念更难复现。想想看，以前我们在路上碰见朋友，急忙中还会言不由衷地说一句“得闲饮茶”；意思就是大家都忙，有空再一起忘掉时间吧。现在呢？你是不是已经很久没再听人说过这句话了？因为我们已经忙到根本忘记世上曾经有饮茶这种时间了。</p>
 ]]></content>
       <categories>
-        <category>其它</category>
+        <category>每日一文</category>
       </categories>
       <tags>
-        <tag>article</tag>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -1059,7 +1059,7 @@
   <entry>
     <title>友链</title>
     <url>/2020/05/25/friends/</url>
-    <content><![CDATA[<h3 id="友链格式："><a href="#友链格式：" class="headerlink" title="友链格式："></a>友链格式：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">博客名：白夜</span><br><span class="line">地址：http:&#x2F;&#x2F;whitenight999.top&#x2F;</span><br><span class="line">头像：http:&#x2F;&#x2F;whitenight999.top&#x2F;img&#x2F;head.jpg</span><br><span class="line">简介：似此星辰非昨夜，为谁风露立中宵？</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h3 id="友链格式："><a href="#友链格式：" class="headerlink" title="友链格式："></a>友链格式：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">博客名：白夜</span><br><span class="line">地址：https:&#x2F;&#x2F;whitenight999.top&#x2F;</span><br><span class="line">头像：https:&#x2F;&#x2F;whitenight999.top&#x2F;img&#x2F;head.jpg</span><br><span class="line">简介：似此星辰非昨夜，为谁风露立中宵？</span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>欢迎各位大佬们互换友链<br>原则上只要不违法都是可以的。<br>在下方评论区，按照格式回复即可。</p>
@@ -1121,13 +1121,14 @@
 <p>列数：<code>rows</code></p>
 <p>上传图片头像或场景：<code>&lt;input type=&quot;file&quot;/&gt;</code></p>
 <p>提交按钮：<code>&lt;input type=&quot;submit&quot; value=提交&gt;</code></p>
-<p>重置按钮：<code>&lt;input type=&quot;reset&quot; value=重置&gt;</code><br>————————————————<br>转载于CSDN<br>原文链接：<a href="https://blog.csdn.net/qySWKqy/java/article/details/80035672" target="_blank" rel="noopener">https://blog.csdn.net/qySWKqy/java/article/details/80035672</a></p>
+<p>重置按钮：<code>&lt;input type=&quot;reset&quot; value=重置&gt;</code></p>
 ]]></content>
       <categories>
-        <category>Html</category>
+        <category>Web</category>
       </categories>
       <tags>
         <tag>技巧</tag>
+        <tag>Html</tag>
       </tags>
   </entry>
   <entry>
@@ -1157,10 +1158,10 @@
 <h3 id="3-链接"><a href="#3-链接" class="headerlink" title="3. 链接"></a>3. 链接</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">文字链接 [链接名称](链接网址)  </span><br><span class="line"></span><br><span class="line">网址链接 &lt;链接网址&gt;</span><br></pre></td></tr></table></figure>
 
 
-<p>文字链接 <a href="http://whitenight999.top/2020/05/22/markdown/" target="_blank" rel="noopener">链接名称</a><br>网址链接 <a href="http://whitenight999.top/2020/05/22/markdown/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/22/markdown/</a></p>
+<p>文字链接 <a href="https://whitenight999.top/2020/05/22/markdown/">链接名称</a><br>网址链接 <a href="https://whitenight999.top/2020/05/22/markdown/">https://whitenight999.top/2020/05/22/markdown/</a></p>
 <h3 id="4-图片"><a href="#4-图片" class="headerlink" title="4. 图片"></a>4. 图片</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![图片替代文字](图片链接)</span><br><span class="line"></span><br><span class="line">![图片替代文字](图片链接 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://note.youdao.com/yws/public/resource/2c7a7435b06bbe0a96c9630310d7cf35/xmlnote/WEBRESOURCE2a5cb84df6dff823e7789c72118fe6da/144" alt="图片替代文字"> <img src="https://note.youdao.com/yws/public/resource/2c7a7435b06bbe0a96c9630310d7cf35/xmlnote/WEBRESOURCE2a5cb84df6dff823e7789c72118fe6da/144" alt="图片替代文字" title="可选标题"></p>
+<p><img src="https://whitenight999.top/img/favicon.png" alt="图片替代文字"> <img src="https://whitenight999.top/img/favicon.png" alt="图片替代文字" title="可选标题"></p>
 <blockquote>
 <p>设置可选标题后将鼠标放在图片上，会显示图片标题<br>当链接失效时会显示图片替代文字</p>
 </blockquote>
@@ -1171,7 +1172,7 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;img src&#x3D;&quot;图片链接&quot; width&#x3D;&quot;7%&quot; height&#x3D;&quot;7%&quot;&gt;</span><br><span class="line"></span><br><span class="line">&lt;img src&#x3D;&quot;图片链接&quot; width&#x3D;&quot;77&quot; height&#x3D;&quot;77&quot;&gt;</span><br></pre></td></tr></table></figure>
 
 
-<p><img src="https://note.youdao.com/yws/public/resource/2c7a7435b06bbe0a96c9630310d7cf35/xmlnote/WEBRESOURCE2a5cb84df6dff823e7789c72118fe6da/144" width="7%" height="7%"><img src="https://note.youdao.com/yws/public/resource/2c7a7435b06bbe0a96c9630310d7cf35/xmlnote/WEBRESOURCE2a5cb84df6dff823e7789c72118fe6da/144" width="77" height="77"></p>
+<p><img src="https://whitenight999.top/img/favicon.png" width="7%" height="7%"><img src="https://whitenight999.top/img/favicon.png" width="77" height="77"></p>
 <h3 id="5-位置"><a href="#5-位置" class="headerlink" title="5. 位置"></a>5. 位置</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div align&#x3D;left&gt; 左对齐 &lt;&#x2F;div&gt;</span><br><span class="line">&lt;div align&#x3D;right&gt; 右对齐 &lt;&#x2F;div&gt;</span><br><span class="line">&lt;div align&#x3D;center&gt; 居中 &#x2F;&lt;div&gt;</span><br><span class="line">&lt;center&gt; 居中 &lt;&#x2F;center&gt;</span><br></pre></td></tr></table></figure>
 <div align=left> 左对齐 </div>
 <div align=right> 右对齐 </div>
@@ -1182,7 +1183,7 @@
 <p>亦可作用于图片及其它地方</p>
 </blockquote>
 <h3 id="6-变量"><a href="#6-变量" class="headerlink" title="6. 变量"></a>6. 变量</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[变量名称][变量赋值]</span><br><span class="line">在结尾处结尾处输入：</span><br><span class="line">[变量赋值]：链接网址</span><br></pre></td></tr></table></figure>
-<p>[我的github][z]<br>[z]: <a href="http://whitenight999.top/2020/05/22/markdown/" target="_blank" rel="noopener">http://whitenight999.top/2020/05/22/markdown/</a></p>
+<p>[我的github][z]<br>[z]: <a href="https://whitenight999.top/2020/05/22/markdown/">https://whitenight999.top/2020/05/22/markdown/</a></p>
 <blockquote>
 <p>亦可用于图片(在开头加个 ！ 即可)</p>
 </blockquote>
@@ -1403,13 +1404,14 @@
 <td align="center"><code>&amp;#247;</code></td>
 </tr>
 </tbody></table>
-<p>本文地址: <a href="http://whitenight999.top/2020/05/22/markdown" target="_blank" rel="noopener">http://whitenight999.top/2020/05/22/markdown</a></p>
+<p>本文地址: <a href="https://whitenight999.top/2020/05/22/markdown">https://whitenight999.top/2020/05/22/markdown</a></p>
 ]]></content>
       <categories>
-        <category>Markdown</category>
+        <category>Web</category>
       </categories>
       <tags>
         <tag>技巧</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -1417,11 +1419,7 @@
     <url>/2020/05/22/music/</url>
     <content><![CDATA[<h4>0.前言</h4>
 
-<blockquote>
-<p>前面有同学问我，想要做一个Android 实战项目，问我有没有好的开源项目可以参考和练习？</p>
-</blockquote>
-<p>想想自己以前也是，当项目没有什么新任务的时候，想着自己写一个实战项目来来练练手，那拿什么项目来练手呢？我觉得最好的项目就是自己写一个音乐播放器。一个音乐播放器里几乎能包含Android 中的大部分常用技术，Android 的四大组件(Activity,Service,BroadcastRecevier,ContentProvider都有使用),自定义View、widgets组件，进程通讯、通知栏、网络相关、音频、视频相关技术等等。因此，如果你做完一个完整音乐播放器，那么对你自己的技术提升也不小。</p>
-<p>本篇文章就介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：</p>
+<p>本篇文章主要介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：</p>
 <h5>1. Timber</h5>
 <img src="https://whitenight999.gitee.io/blogpic/music/1.jpg" alt="图片"/>
 <p>Timber 是一款功能强大的开源音乐播放器，有如下功能：</p>
@@ -1439,15 +1437,10 @@
 <p>Github star: <strong><em>4.2k</em></strong></p>
 <h4>2. remusic(高仿网易云音乐app)</h4>
 <img src="https://whitenight999.gitee.io/blogpic/music/2.jpg" alt="图片"/>
-<p>网易云音乐应该算是国内最好音乐APP之一，我也是网易云音乐的忠实用户，不仅app界面美观，整个社区也是做的很好，在音乐推荐方面深的人心，几乎每一首都符合口味，网上更有流传了这样一张图：</p>
- <img src="https://whitenight999.gitee.io/blogpic/music/3.jpg" alt="图片"/>
-<p>不装个网易云音乐，连女朋友都找不到（开个玩笑...）。</p>
+<p>网易云音乐应该算是国内最好音乐APP之一，我也是网易云音乐的忠实用户，不仅app界面美观，整个社区也是做的很好，在音乐推荐方面深的人心，几乎每一首都符合口味.</p>
+
 <p>而<strong>remusic</strong>是对网易乐音乐app的高仿，界面几乎一模一样， 功能很全面，项目中有使用一些优秀的开源框架：</p>
-<ul>
-<li>图片加载框架 Fresco</li>
-<li>网络框架：Retrofit+okhttp</li>
-<li>换肤：MagicaSakura</li>
-</ul>
+
 <p>还有一些自定义View ，如歌词控件、播放进度控件、暂定、播放控件等等。如果你想开发一款音乐播放器来实战进阶，remusic 是一个不错的参考开源项目。</p>
 <p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Faa112901%2Fremusic" target="_blank" rel="nofollow">https://github.com/aa112901/remusic</a><br>
 Github star: <strong><em>3.9k</em></strong></p>
@@ -1469,13 +1462,1610 @@ Github star: <strong><em>1.9k</em></strong></p>
 <p>本地播放器：<a href="https://github.com/PonnyDong/android-" target="_blank" rel="nofollow">https://github.com/PonnyDong/android-r</a></p>
 <h4>6.总结</h4>
 <p>其实写一个音乐播放器还是挺锻炼人的，涉及的知识面广，对于初、中级Android 工程师适合。本篇文章介绍了4个优秀的开源音乐播放器，有兴趣的可以去看看研究一下。我相信写完后对你的帮助会很大的。如果你还有什么优秀的开源库推荐，欢迎文末留言。</p>
-<p>转载于简书，原文链接：<a href="https://www.jianshu.com/p/a880c4105494" target="_blank" rel="nofollow">https://www.jianshu.com/p/a880c4105494</a></p>
 ]]></content>
       <categories>
         <category>安卓</category>
       </categories>
       <tags>
         <tag>播放器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS 属性</title>
+    <url>/2020/05/27/5272/</url>
+    <content><![CDATA[<h3 id="1-动画属性"><a href="#1-动画属性" class="headerlink" title="1. 动画属性"></a>1. 动画属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">@keyframes</td>
+<td align="center">定义一个动画,@keyframes定义的动画名称用来被animation-name所使用。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation</td>
+<td align="center">复合属性。检索或设置对象所应用的动画特效。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-name</td>
+<td align="center">检索或设置对象所应用的动画名称 ,必须与规则@keyframes配合使用，因为动画名称由@keyframes定义</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-duration</td>
+<td align="center">检索或设置对象动画的持续时间</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-timing-function</td>
+<td align="center">检索或设置对象动画的过渡类型</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-delay</td>
+<td align="center">检索或设置对象动画的延迟时间</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-iteration-count</td>
+<td align="center">检索或设置对象动画的循环次数</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-direction</td>
+<td align="center">检索或设置对象动画在循环中是否反向运动</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">animation-play-state</td>
+<td align="center">检索或设置对象动画的状态</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="2-背景属性"><a href="#2-背景属性" class="headerlink" title="2.背景属性"></a>2.背景属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">background</td>
+<td align="center">复合属性。设置对象的背景特性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">background-attachment</td>
+<td align="center">设置或检索背景图像是随对象内容滚动还是固定的。必须先指定background-image属性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">background-color</td>
+<td align="center">设置或检索对象的背景颜色。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">background-image</td>
+<td align="center">设置或检索对象的背景图像。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">background-position</td>
+<td align="center">设置或检索对象的背景图像位置。必须先指定background-image属性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">background-repeat</td>
+<td align="center">设置或检索对象的背景图像如何铺排填充。必须先指定background-image属性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">background-clip</td>
+<td align="center">指定对象的背景图像向外裁剪的区域。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">background-origins</td>
+<td align="center">设置或检索对象的背景图像计算background-position时的参考原点(位置)。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">background-size</td>
+<td align="center">检索或设置对象的背景图像的尺寸大小。</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="3-边框-Border-和-轮廓-Outline-属性"><a href="#3-边框-Border-和-轮廓-Outline-属性" class="headerlink" title="3. 边框(Border) 和 轮廓(Outline) 属性"></a>3. 边框(Border) 和 轮廓(Outline) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">border</td>
+<td align="center">复合属性。设置对象边框的特性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-bottom</td>
+<td align="center">复合属性。设置对象底部边框的特性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-bottom-color</td>
+<td align="center">设置或检索对象的底部边框颜色。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-bottom-style</td>
+<td align="center">设置或检索对象的底部边框样式。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-bottom-width</td>
+<td align="center">设置或检索对象的底部边框宽度。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-color</td>
+<td align="center">设置或检索对象的边框颜色。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-left</td>
+<td align="center">复合属性。设置对象左边边框的特性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-left-color</td>
+<td align="center">设置或检索对象的左边边框颜色。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-left-style</td>
+<td align="center">设置或检索对象的左边边框样式。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-left-width</td>
+<td align="center">设置或检索对象的左边边框宽度。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-right</td>
+<td align="center">复合属性。设置对象右边边框的特性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-right-color</td>
+<td align="center">设置或检索对象的右边边框颜色。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-right-style</td>
+<td align="center">设置或检索对象的右边边框样式。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-right-width</td>
+<td align="center">设置或检索对象的右边边框宽度。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-style</td>
+<td align="center">设置或检索对象的边框样式。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-top</td>
+<td align="center">复合属性。设置对象顶部边框的特性。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-top-color</td>
+<td align="center">设置或检索对象的顶部边框颜色</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-top-style</td>
+<td align="center">设置或检索对象的顶部边框样式。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-top-width</td>
+<td align="center">设置或检索对象的顶部边框宽度。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">border-width</td>
+<td align="center">设置或检索对象的边框宽度。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">outline</td>
+<td align="center">复合属性。设置或检    索对象外的线条轮廓。</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">outline-color</td>
+<td align="center">设置或    检索对象外的线条轮廓的颜色。</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">outline-style</td>
+<td align="center">设置或检索对象外的线条轮廓的样式。</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">outline-width</td>
+<td align="center">设置或检索对象外的线条轮廓的宽度。</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">border-bottom-left-radius</td>
+<td align="center">设置或检索对象的左下角圆角边框。提供2个参数，2个参数以空格分隔，每个参数允许设置1个参数值，第1个参数表示水平半径，第2个参数表示垂直半径，如第2个参数省略，则默认等于第1个参数</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-bottom-right-radius</td>
+<td align="center">设置或检索对象的右下角圆角边框。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-image</td>
+<td align="center">设置或检索对象的边框样式使用图像来填充。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-image-outset</td>
+<td align="center">规定边框图像超过边框的量。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-image-repeat</td>
+<td align="center">规定图像边框是否应该被重复（repeated）、拉伸（stretched）或铺满（rounded）。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-image-slice</td>
+<td align="center">规定图像边框的向内偏移。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-image-source</td>
+<td align="center">规定要使用的图像，代替 border-style 属性中设置的边框样式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-image-width</td>
+<td align="center">规定图像边框的宽度。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-radius</td>
+<td align="center">设置或检索对象使用圆角边框。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-top-left-radius</td>
+<td align="center">定义左上角边框的形状。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">border-top-right-radius</td>
+<td align="center">定义右上角边框的形状。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-decoration-break</td>
+<td align="center">规定行内元素被折行</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-shadow</td>
+<td align="center">向方框添加一个或多个阴影。</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="4-盒子-Box-属性"><a href="#4-盒子-Box-属性" class="headerlink" title="4. 盒子(Box) 属性"></a>4. 盒子(Box) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">overflow-x</td>
+<td align="center">如果内容溢出了元素内容区域，是否对内容的左/右边缘进行裁剪。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">overflow-y</td>
+<td align="center">如果内容溢出了元素内容区域，是否对内容的上/下边缘进行裁剪。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">overflow-style</td>
+<td align="center">规定溢出元素的首选滚动方法。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">rotation</td>
+<td align="center">围绕由 rotation-point 属性定义的点对元素进行旋转。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">rotation-point</td>
+<td align="center">定义距离上左边框边缘的偏移点。</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="5-颜色-Color-属性"><a href="#5-颜色-Color-属性" class="headerlink" title="5. 颜色(Color) 属性"></a>5. 颜色(Color) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">color-profile</td>
+<td align="center">允许使用源的颜色配置文件的默认以外的规范</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">opacity</td>
+<td align="center">设置一个元素的透明度级别</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">rendering-intent</td>
+<td align="center">允许超过默认颜色配置文件渲染意向的其他规范</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="6-内边距-Padding-属性"><a href="#6-内边距-Padding-属性" class="headerlink" title="6. 内边距(Padding) 属性"></a>6. 内边距(Padding) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">padding</td>
+<td align="center">在一个声明中设置所有填充属性</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">padding-bottom</td>
+<td align="center">设置元素的底填充</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">padding-left</td>
+<td align="center">设置元素的左填充</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">padding-right</td>
+<td align="center">设置元素的右填充</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">padding-top</td>
+<td align="center">设置元素的顶部填充</td>
+<td align="center">1</td>
+</tr>
+</tbody></table>
+<h3 id="7-媒体页面内容属性"><a href="#7-媒体页面内容属性" class="headerlink" title="7. 媒体页面内容属性"></a>7. 媒体页面内容属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">bookmark-label</td>
+<td align="center">指定书签的标签</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">bookmark-level</td>
+<td align="center">指定了书签级别</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">bookmark-target</td>
+<td align="center">指定了书签链接的目标</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">float-offset</td>
+<td align="center">在相反的方向推动浮动元素，他们一直具有浮动</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">hyphenate-after</td>
+<td align="center">指定一个断字的单词断字字符后的最少字符数</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">hyphenate-before</td>
+<td align="center">指定一个断字的单词断字字符前的最少字符数</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">hyphenate-character</td>
+<td align="center">指定了当一个断字发生时，要显示的字符串</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">hyphenate-lines</td>
+<td align="center">表示连续断字的行在元素的最大数目</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">hyphenate-resource</td>
+<td align="center">外部资源指定一个逗号分隔的列表，可以帮助确定浏览器的断字点</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">hyphens</td>
+<td align="center">设置如何分割单词以改善该段的布局</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">image-resolution</td>
+<td align="center">指定了正确的图像分辨率</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">marks</td>
+<td align="center">将crop and/or cross标志添加到文档</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">string-set</td>
+<td align="center"></td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="8-尺寸-Dimension-属性"><a href="#8-尺寸-Dimension-属性" class="headerlink" title="8. 尺寸(Dimension) 属性"></a>8. 尺寸(Dimension) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">height</td>
+<td align="center">设置元素的高度</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">max-height</td>
+<td align="center">设置元素的最大高度</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">max-width</td>
+<td align="center">设置元素的最大宽度</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">min-height</td>
+<td align="center">设置元素的最小高度</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">min-width</td>
+<td align="center">设置元素的最小宽度</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">width</td>
+<td align="center">设置元素的宽度</td>
+<td align="center">1</td>
+</tr>
+</tbody></table>
+<h3 id="9-弹性盒子模型（Flexible-Box）-属性-新"><a href="#9-弹性盒子模型（Flexible-Box）-属性-新" class="headerlink" title="9. 弹性盒子模型（Flexible Box） 属性(新)"></a>9. 弹性盒子模型（Flexible Box） 属性(新)</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">flex</td>
+<td align="center">复合属性。设置或检索弹性盒模型对象的子元素如何分配空间。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">flex-grow</td>
+<td align="center">设置或检索弹性盒的扩展比率。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">flex-shrink</td>
+<td align="center">设置或检索弹性盒的收缩比率。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">flex-basis</td>
+<td align="center">设置或检索弹性盒伸缩基准值。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">flex-flow</td>
+<td align="center">复合属性。设置或检索弹性盒模型对象的子元素排列方式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">flex-direction</td>
+<td align="center">该属性通过定义flex容器的主轴方向来决定felx子项在flex容器中的位置。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">flex-wrap</td>
+<td align="center">该属性控制flex容器是单行或者多行，同时横轴的方向决定了新行堆叠的方向。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">align-content</td>
+<td align="center">在弹性容器内的各项没有占用交叉轴上所有可用的空间时对齐容器内的各项（垂直）。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">align-items</td>
+<td align="center">定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">align-self</td>
+<td align="center">定义flex子项单独在侧轴（纵轴）方向上的对齐方式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">justify-content</td>
+<td align="center">设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">order</td>
+<td align="center">设置或检索弹性盒模型对象的子元素出现的順序。</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="10-弹性盒子模型（Flexible-Box）-属性-旧"><a href="#10-弹性盒子模型（Flexible-Box）-属性-旧" class="headerlink" title="10. 弹性盒子模型（Flexible Box） 属性(旧)"></a>10. 弹性盒子模型（Flexible Box） 属性(旧)</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">box-align</td>
+<td align="center">指定如何对齐一个框的子元素</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-direction</td>
+<td align="center">指定在哪个方向，显示一个框的子元素</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-flex</td>
+<td align="center">指定一个框的子元素是否是灵活的或固定的大小</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-flex-group</td>
+<td align="center">指派灵活的元素到Flex组</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-lines</td>
+<td align="center">每当它在父框的空间运行时，是否指定将再上一个新的行列</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-ordinal-group</td>
+<td align="center">指定一个框的子元素的显示顺序</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-orient</td>
+<td align="center">指定一个框的子元素是否在水平或垂直方向应铺设</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-pack</td>
+<td align="center">指定横向盒在垂直框的水平位置和垂直位置</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="11-字体（Font）-属性"><a href="#11-字体（Font）-属性" class="headerlink" title="11. 字体（Font） 属性"></a>11. 字体（Font） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">font</td>
+<td align="center">在一个声明中设置所有字体属性</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">font-family</td>
+<td align="center">规定文本的字体系列</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">font-size</td>
+<td align="center">规定文本的字体尺寸</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">font-style</td>
+<td align="center">规定文本的字体样式</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">font-variant</td>
+<td align="center">规定文本的字体样式</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">font-weight</td>
+<td align="center">规定字体的粗细</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">@font-face</td>
+<td align="center">一个规则，允许网站下载并使用其他超过”Web- safe”字体的字体</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">font-size-adjust</td>
+<td align="center">为元素规定 aspect 值</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">font-stretch</td>
+<td align="center">收缩或拉伸当前的字体系列</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="12-内容生成属性-Generated-Content-Properties"><a href="#12-内容生成属性-Generated-Content-Properties" class="headerlink" title="12. 内容生成属性(Generated Content Properties)"></a>12. 内容生成属性(Generated Content Properties)</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">content</td>
+<td align="center">与 :before 以及 :after 伪元素配合使用，来插入生成内容</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">counter-increment</td>
+<td align="center">递增或递减一个或多个计数器</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">counter-reset</td>
+<td align="center">创建或重置一个或多个计数器</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">quotes</td>
+<td align="center">设置嵌套引用的引号类型</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">crop</td>
+<td align="center">允许replaced元素只是作为一个对象代替整个对象的矩形区域</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">move-to</td>
+<td align="center">从流中删除元素，然后在文档中后面的点上重新插入。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">page-policy</td>
+<td align="center">判定基于页面的给定元素的适用于计数器的字符串值</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="13-网格（Grid）-属性"><a href="#13-网格（Grid）-属性" class="headerlink" title="13. 网格（Grid） 属性"></a>13. 网格（Grid） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">grid-columns</td>
+<td align="center">指定在网格中每列的宽度</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">grid-rows</td>
+<td align="center">指定在网格中每列的高度</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="14-超链接-Hyperlink-属性"><a href="#14-超链接-Hyperlink-属性" class="headerlink" title="14. 超链接(Hyperlink)属性"></a>14. 超链接(Hyperlink)属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">target</td>
+<td align="center">简写属性设置target-name, target-new,和target-position属性</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">target-name</td>
+<td align="center">指定在何处打开链接（目标位置）</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">target-new</td>
+<td align="center">指定是否有新的目标链接打开一个新窗口或在现有窗口打开新标签</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">target-position</td>
+<td align="center">指定应该放置新的目标链接的位置</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="15-线框-Linebox-属性"><a href="#15-线框-Linebox-属性" class="headerlink" title="15. 线框(Linebox) 属性"></a>15. 线框(Linebox) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">alignment-adjust</td>
+<td align="center">允许更精确的元素的对齐方式</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">alignment-baseline</td>
+<td align="center">其父级指定的内联级别的元素如何对齐</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">baseline-shift</td>
+<td align="center">允许重新定位相对于dominant-baseline的dominant-baseline</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">dominant-baseline</td>
+<td align="center">指定scaled-baseline-table</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">drop-initial-after-adjust</td>
+<td align="center">设置下拉的主要连接点的初始对齐点</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">drop-initial-after-align</td>
+<td align="center">校准行内的初始行的设置就是具有首字母的框使用初级连接点</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">drop-initial-before-adjust</td>
+<td align="center">设置下拉的辅助连接点的初始对齐点</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">drop-initial-before-align</td>
+<td align="center">校准行内的初始行的设置就是具有首字母的框使用辅助连接点</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">drop-initial-size</td>
+<td align="center">控制局部的首字母下沉</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">drop-initial-value</td>
+<td align="center">激活一个下拉式的初步效果</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">inline-box-align</td>
+<td align="center">设置一个多行的内联块内的行具有前一个和后一个内联元素的对齐</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">line-stacking</td>
+<td align="center">一个速记属性设置line-stacking-strategy, line-stacking-ruby,和line-stacking-shift属性</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">line-stacking-ruby</td>
+<td align="center">设置包含Ruby注释元素的行对于块元素的堆叠方法</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">line-stacking-shift</td>
+<td align="center">设置base-shift行中块元素包含元素的堆叠方法</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">line-stacking-strategy</td>
+<td align="center">设置内部包含块元素的堆叠线框的堆叠方法</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-height</td>
+<td align="center">行内框的文本内容区域设置block-progression维数</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="16-列表-List-属性"><a href="#16-列表-List-属性" class="headerlink" title="16. 列表(List) 属性"></a>16. 列表(List) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">list-style</td>
+<td align="center">在一个声明中设置所有的列表属性</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">list-style-image</td>
+<td align="center">将图象设置为列表项标记</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">list-style-position</td>
+<td align="center">设置列表项标记的放置位置</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">list-style-type</td>
+<td align="center">设置列表项标记的类型</td>
+<td align="center">1</td>
+</tr>
+</tbody></table>
+<h3 id="17-外边距-Margin-属性"><a href="#17-外边距-Margin-属性" class="headerlink" title="17. 外边距(Margin) 属性"></a>17. 外边距(Margin) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">margin</td>
+<td align="center">在一个声明中设置所有外边距属性</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">margin-bottom</td>
+<td align="center">设置元素的下外边距</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">margin-left</td>
+<td align="center">设置元素的左外边距</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">margin-right</td>
+<td align="center">设置元素的右外边距</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">margin-top</td>
+<td align="center">设置元素的上外边距</td>
+<td align="center">1</td>
+</tr>
+</tbody></table>
+<h3 id="18-字幕-Marquee-属性"><a href="#18-字幕-Marquee-属性" class="headerlink" title="18. 字幕(Marquee) 属性"></a>18. 字幕(Marquee) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">marquee-direction</td>
+<td align="center">设置内容移动的方向</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">marquee-play-count</td>
+<td align="center">设置内容移动多少次</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">marquee-speed</td>
+<td align="center">设置内容滚动的速度有多快</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">marquee-style</td>
+<td align="center">设置内容移动的样式</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="19-多列-Multi-column-属性"><a href="#19-多列-Multi-column-属性" class="headerlink" title="19. 多列(Multi-column) 属性"></a>19. 多列(Multi-column) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">column-count</td>
+<td align="center">指定元素应该分为的列数</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-fill</td>
+<td align="center">指定如何填充列</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-gap</td>
+<td align="center">指定列之间的差距</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-rule</td>
+<td align="center">对于设置所有column-rule-*属性的简写属性</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-rule-color</td>
+<td align="center">指定列之间的颜色规则</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-rule-style</td>
+<td align="center">指定列之间的样式规则</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-rule-width</td>
+<td align="center">指定列之间的宽度规则</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-span</td>
+<td align="center">指定元素应该跨越多少列</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">column-width</td>
+<td align="center">指定列的宽度</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">columns</td>
+<td align="center">缩写属性设置列宽和列数</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="20-页面媒体-Paged-Media-属性"><a href="#20-页面媒体-Paged-Media-属性" class="headerlink" title="20. 页面媒体(Paged Media) 属性"></a>20. 页面媒体(Paged Media) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">fit</td>
+<td align="center">如果其宽度和高度属性都不是auto给出一个提示，如何大规模替换元素</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">fit-position</td>
+<td align="center">判定方框内对象的对齐方式</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">image-orientation</td>
+<td align="center">指定用户代理适用于图像中的向右或顺时针方向的旋转</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">page</td>
+<td align="center">指定一个元素应显示的页面的特定类型</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">size</td>
+<td align="center">指定含有BOX的页面内容的大小和方位</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="21-定位（Positioning）-属性"><a href="#21-定位（Positioning）-属性" class="headerlink" title="21. 定位（Positioning） 属性"></a>21. 定位（Positioning） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">bottom</td>
+<td align="center">设置定位元素下外边距边界与其包含块下边界之间的偏移</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">clear</td>
+<td align="center">规定元素的哪一侧不允许其他浮动元素</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">clip</td>
+<td align="center">剪裁绝对定位元素</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">cursor</td>
+<td align="center">规定要显示的光标的类型（形状）</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">display</td>
+<td align="center">规定元素应该生成的框的类型</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">float</td>
+<td align="center">规定框是否应该浮动</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">left</td>
+<td align="center">设置定位元素左外边距边界与其包含块左边界之间的偏移</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">overflow</td>
+<td align="center">规定当内容溢出元素框时发生的事情</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">position</td>
+<td align="center">规定元素的定位类型</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">right</td>
+<td align="center">设置定位元素右外边距边界与其包含块右边界之间的偏移</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">top</td>
+<td align="center">设置定位元素的上外边距边界与其包含块上边界之间的偏移</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">visibility</td>
+<td align="center">规定元素是否可见</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">z-index</td>
+<td align="center">设置元素的堆叠顺序</td>
+<td align="center">2</td>
+</tr>
+</tbody></table>
+<h3 id="22-分页（Print）-属性"><a href="#22-分页（Print）-属性" class="headerlink" title="22. 分页（Print） 属性"></a>22. 分页（Print） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">orphans</td>
+<td align="center">设置当元素内部发生分页时必须在页面底部保留的最少行数</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">page-break-after</td>
+<td align="center">设置元素后的分页行为</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">page-break-before</td>
+<td align="center">设置元素前的分页行为</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">page-break-inside</td>
+<td align="center">设置元素内部的分页行为</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">widows</td>
+<td align="center">设置当元素内部发生分页时必须在页面顶部保留的最少行数</td>
+<td align="center">2</td>
+</tr>
+</tbody></table>
+<h3 id="23-Ruby-属性"><a href="#23-Ruby-属性" class="headerlink" title="23. Ruby 属性"></a>23. Ruby 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">ruby-align</td>
+<td align="center">控制Ruby文本和Ruby基础内容相对彼此的文本对齐方式</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">ruby-overhang</td>
+<td align="center">当Ruby文本超过Ruby的基础宽，确定ruby文本是否允许局部悬置任意相邻的文本，除了自己的基础</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">ruby-position</td>
+<td align="center">它的base控制Ruby文本的位置</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">ruby-span</td>
+<td align="center">控制annotation 元素的跨越行为</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="24-语音（Speech）-属性"><a href="#24-语音（Speech）-属性" class="headerlink" title="24.语音（Speech） 属性"></a>24.语音（Speech） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">mark</td>
+<td align="center">缩写属性设置mark-before和mark-after属性</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">mark-after</td>
+<td align="center">允许命名的标记连接到音频流</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">mark-before</td>
+<td align="center">允许命名的标记连接到音频流</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">phonemes</td>
+<td align="center">指定包含文本的相应元素中的一个音标发音</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">rest</td>
+<td align="center">一个缩写属性设置rest-before和rest-after属性</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">rest-after</td>
+<td align="center">一个元素的内容讲完之后，指定要休息一下或遵守韵律边界</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">rest-before</td>
+<td align="center">一个元素的内容讲完之前，指定要休息一下或遵守韵律边界</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-balance</td>
+<td align="center">指定了左，右声道之间的平衡</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-duration</td>
+<td align="center">指定应采取呈现所选元素的内容的长度</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-pitch</td>
+<td align="center">指定平均说话的声音的音调（频率）</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-pitch-range</td>
+<td align="center">指定平均间距的变化</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-rate</td>
+<td align="center">控制语速</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-stress</td>
+<td align="center">指示着重力度</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">voice-volume</td>
+<td align="center">语音合成是指波形输出幅度</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="25-表格（Table）-属性"><a href="#25-表格（Table）-属性" class="headerlink" title="25. 表格（Table） 属性"></a>25. 表格（Table） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">border-collapse</td>
+<td align="center">规定是否合并表格边框</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">border-spacing</td>
+<td align="center">规定相邻单元格边框之间的距离</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">caption-side</td>
+<td align="center">规定表格标题的位置</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">empty-cells</td>
+<td align="center">规定是否显示表格中的空单元格上的边框和背景</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">table-layout</td>
+<td align="center">设置用于表格的布局算法</td>
+<td align="center">2</td>
+</tr>
+</tbody></table>
+<h3 id="26-文本（Text）-属性"><a href="#26-文本（Text）-属性" class="headerlink" title="26. 文本（Text） 属性"></a>26. 文本（Text） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">color</td>
+<td align="center">设置文本的颜色</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">direction</td>
+<td align="center">规定文本的方向 / 书写方向</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">letter-spacing</td>
+<td align="center">设置字符间距</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">line-height</td>
+<td align="center">设置行高</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">text-align</td>
+<td align="center">规定文本的水平对齐方式</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">text-decoration</td>
+<td align="center">规定添加到文本的装饰效果</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">text-indent</td>
+<td align="center">规定文本块首行的缩进</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">text-transform</td>
+<td align="center">控制文本的大小写</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">unicode-bidi</td>
+<td align="center"></td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">vertical-align</td>
+<td align="center">设置元素的垂直对齐方式</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">white-space</td>
+<td align="center">设置怎样给一元素控件留白</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">word-spacing</td>
+<td align="center">设置单词间距</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">text-emphasis</td>
+<td align="center">向元素的文本应用重点标记以及重点标记的前景色。</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">hanging-punctuation</td>
+<td align="center">指定一个标点符号是否可能超出行框</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">punctuation-trim</td>
+<td align="center">指定一个标点符号是否要去掉</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-align-last</td>
+<td align="center">当 text-align 设置为 justify 时，最后一行的对齐方式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-justify</td>
+<td align="center">当 text-align 设置为 justify 时指定分散对齐的方式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-outline</td>
+<td align="center">设置文字的轮廓。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-overflow</td>
+<td align="center">指定当文本溢出包含的元素，应该发生什么</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-shadow</td>
+<td align="center">为文本添加阴影</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">text-wrap</td>
+<td align="center">指定文本换行规则</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">word-break</td>
+<td align="center">指定非CJK文字的断行规则</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">word-wrap</td>
+<td align="center">设置浏览器是否对过长的单词进行换行。</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="27-2D-3D-转换属性"><a href="#27-2D-3D-转换属性" class="headerlink" title="27. 2D/3D 转换属性"></a>27. 2D/3D 转换属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">transform</td>
+<td align="center">适用于2D或3D转换的元素</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">transform-origin</td>
+<td align="center">允许您更改转化元素位置</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">transform-style</td>
+<td align="center">3D空间中的指定如何嵌套元素</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">perspective</td>
+<td align="center">指定3D元素是如何查看透视图</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">perspective-origin</td>
+<td align="center">指定3D元素底部位置</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">backface-visibility</td>
+<td align="center">定义一个元素是否应该是可见的，不对着屏幕时</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="28-过渡（Transition）-属性"><a href="#28-过渡（Transition）-属性" class="headerlink" title="28. 过渡（Transition） 属性"></a>28. 过渡（Transition） 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">transition</td>
+<td align="center">此属性是 transition-property、transition-duration、transition-timing-function、transition-delay 的简写形式。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">transition-property</td>
+<td align="center">设置用来进行过渡的 CSS 属性。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">transition-duration</td>
+<td align="center">设置过渡进行的时间长度。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">transition-timing-function</td>
+<td align="center">设置过渡进行的时序函数。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">transition-delay</td>
+<td align="center">指定过渡开始的时间。</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+<h3 id="29-用户外观-User-interface-属性"><a href="#29-用户外观-User-interface-属性" class="headerlink" title="29. 用户外观(User-interface) 属性"></a>29. 用户外观(User-interface) 属性</h3><table>
+<thead>
+<tr>
+<th align="center">属性</th>
+<th align="center">描述</th>
+<th align="center">CSS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">appearance</td>
+<td align="center">定义元素的外观样式</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">box-sizing</td>
+<td align="center">允许您为了适应区域以某种方式定义某些元素</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">icon</td>
+<td align="center">为元素指定图标</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">nav-down</td>
+<td align="center">指定用户按向下键时向下导航的位置</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">nav-index</td>
+<td align="center">指定导航（tab）顺序。</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">nav-left</td>
+<td align="center">指定用户按向左键时向左导航的位置</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">nav-right</td>
+<td align="center">指定用户按向右键时向左导航的位置</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">nav-up</td>
+<td align="center">指定用户按向上键时向上导航的位置a</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">outline-offset</td>
+<td align="center">设置轮廓框架在 border 边缘外的偏移</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">resize</td>
+<td align="center">定义元素是否可以改变大小</td>
+<td align="center">3</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UI设计小技巧</title>
+    <url>/2020/05/27/5271/</url>
+    <content><![CDATA[<p style=" font-size: 16px;">前几天做了抽奖页面，中间用了一下小技巧，迫不及待分享给大家，先看下主形象效果：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/1/2/1/3244121.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244121"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">小技巧分享：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p><span style="font-size: 20px;"><strong>1.善用透视 </strong></span></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">适当的透视可以增强画面的冲击力，让画面立体起来。</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">比如这个抽奖的主形象，我最开始把转盘和吉祥物都用纯正面展示:</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/3/2/1/3244123.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244123"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">整体画面就会很平，当适当调整角度后:</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/6/2/1/3244126.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244126"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">冲击力就会变强一些，因为我们看到了一些厚度。</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">再比如之前做漫动画闪屏的时候，整个页面最大的亮点也就是这个影带的构图和透视了：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/7/2/1/3244127.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244127"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">透视、角度、构图是一个非常容易出效果的设计手段，比如别人都是正面看一个物体，而你就来一个从底下看的，那就是很不一样的。</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">这是一条很好的创新路径。</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p><strong><span style="font-size: 20px;">2.色中带色</span></strong></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">有时候一种颜色难免会比较单一，比如我们在拉渐变的时候，一个色相的渐变就会稍显呆板：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/8/2/1/3244128.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244128"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">所以很多时候会蓝中带点紫色，或者绿里带点黄色：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/4/3/1/3244134.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244134"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">除此之外，我还经常会在环境光中使用这一手法，比如先大面积的紫色光，然后再加入一丢丢的蓝色光：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/5/3/1/3244135.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244135"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">使整体更富有细节，更加耐看！</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p><span style="font-size: 20px;"><strong>&nbsp;3.增强质感 </strong></span></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">一个物体有质感可以很大程度的提升你的画面可观性。</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">质感最重要的一条就是清晰度，如果你的画面连清晰度都不够，那何谈质感。</p><p style=" font-size: 16px;">所以我每次在后期修图的时候，都会用ps增加画面的锐化，工具大家应该都知道吧，就是中间这个小三角：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/6/3/1/3244136.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244136"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">除了保证清晰度以外，剩下的就是高光、投影、反光、环境色了，也就是该亮的地方亮，该暗的地方暗，我们可以看看下面这个小形象，增加质感前后的对比效果：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/7/3/1/3244137.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244137"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">是不是耐看很多，嘻嘻！</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p><span style="font-size: 20px;"><strong>&nbsp;4.少用正色 </strong></span></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">我最怕用红黄搭配，因为很容易做的很土，还好之前有做过一些关于红色的练习和项目，做法就是让红色不要太正，像左边的就太正了，右边调整之后会好一些：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/9/3/1/3244139.jpg" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244139"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">除了红色不要太正以外，我还在红黄里面融入了少量的蓝色和紫色，大概的比例如下：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/1/4/1/3244141.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244141"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">整体的配色效果如下：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/3/4/1/3244143.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244143"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">这样看起来就没有那么常规和土气了！</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><br></p><p>总结&nbsp;</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">以上就是今天分享的小干货了，这个画面用业余时间调整了很久，尤其是主形象这块，过程稿有这么多：</p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;"><img src="https://img.ui.cn/data/file/5/4/1/3244145.png" style="width: 600px;" class="fr-fic fr-dib" data-settime="3" data-status="true" data-picid="3244145"></p><p style=" font-size: 16px;"><br></p><p style=" font-size: 16px;">各种调整尝试，最后才得到勉强满意的效果。</p>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+        <tag>UI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>真正的自由和远方，永远在人的心里</title>
+    <url>/2020/05/27/5273/</url>
+    <content><![CDATA[<h1><center>大海到底能不能治愈人心</h1>
+
+<h2><center>东海三部曲之二</h2>
+
+<p align=center> <font face="微软雅黑" size="3" color="grey">曹羊/文</font> </p>
+
+<p>1.妖怪vs.脑残粉<br>青年旅舍总是比较吵闹，我寄宿的这家也不例外。自从韩寒的电影《后会无期》在这里取景后，这个原本鲜少有游客出现的小岛上立刻挤满了各种各样的男男女女。<br>每一天，我都要被迫听这些五音不全的家伙们唱上几十遍的《平凡之路》和《成都》，以及各种无休无止循环播放的土味民谣。<br>以前没见过脑残粉，在北京学习、生活和工作的这二十多年，往来的朋友们都是才高八斗、学富五车，待人处世温文尔雅、品行端正、情操高尚的窈窕淑女和谦谦君子，虽说难免哪天谁又在酒局上现了原形，露出了些妖怪嘴脸，那也都是酒精在作祟，酒精才是魔鬼，而我们只是些妖怪。<br>精神医学层面上对脑残粉的通常定义是自我人格的严重缺失。这种疾病通常挂相，据脑医学部的同仁们多年来累积的，大量病例和病理分析得出的经验为病人脑部沟回平坦光滑，前额叶积水、后额叶液化，临床表现多为嘴唇外翻、表情凶残、目光呆滞。由于患者声带严重钙化，导致发病时声音极其刺耳；另外指爪异常发达，抓挠能力接近鹰隼类动物，同时视觉退化，只对特定目标产生反应，对目标以外的事物保持视觉空白。<br>这些都是以前的数据了，脑残病毒进化的速度远远超过科学家们的预料，现在的脑残病毒已经可以对宿主发出掩盖、伪装的指令，所以现在的脑残粉平时看上去都些是清新、友善的年轻人，但是一旦脑残病毒对其发出攻击指令后，脑残粉们便会暴露出凶残的本性。<br>敌人越来越狡猾，隐藏得也越来越深。不能放松警惕啊同志们，对待脑残粉，我们必须离得越远越好，绝不能心慈手软，宁可冤枉一千，也不可放过一个。<br>工作之余，大家可以看看那些好莱坞的僵尸电影，我们国家自己不拍这些个糟粕，但是我们可以带着批判的眼光去看他们拍的糟粕嘛，我看其中一些还是很有警示和参考意义的嘛，自古以来，多少座看上去牢不可破的城池，最后还不都是因为麻痹大意被攻破的。</p>
+<p>2.骡子<br>远方？别扯了，远什么方？哪里有什么远方？<br>不过如果从物理意义上来说，相对于陆地，孤岛的确是远方。<br>这里离陆地足够远，岛本身又没有产出，连快递都没有，只有个中国邮政代办点。无论普通包裹还是EMS，东西寄出后都得十天左右才能收到，而且不给送，也不给通知，你得自己查，查完再自己去取。代办点是一四眼老狗承包的，态度极其恶劣，有时候明明显示到了，四眼老狗四只眼可以分别看向四个不同的方向，偏偏就是不看你，偏偏说没有，你再跟他交涉，他就开始，汪汪，汪汪汪！汪汪汪汪汪！<br>岛上交通不便，所有东西都要靠人肩扛手提运送上来。最近时常能看到骡子出没，说明镇政府现在允许大牲口在岛上存活了，骡子的出没展现了政府部门工作中管理人性化的一面，盖房子什么的，砖石钢架，都用人力驼的确太不人道了。<br>人们可以驾驭骡子在山路上行驶，而且那么大一活物，一头才七八千块，还不如个城市中的宠物猫狗值钱。<br>其实毛驴也行，但是毛驴价钱要贵一点，对草料也有要求，马力也不如骡子强劲。骡子的生命力和抗病更强，饲料利用率更高，体质结实，肢蹄强健，富持久力又易于驾驭，使役年限可以长达20～30年，役用价值比马和驴都高，直逼老公。<br>毛驴有生育能力，北方女人等着拿驴皮熬阿胶补血，北方男人等着吃驴肉火烧解馋果腹，吃驴鞭壮阳。<br>北方老话讲，天上的龙肉，地下的驴肉，家有一驴，如有一宝，湖北佬都是九头鸟。<br>我寄宿的东极岛来信青年旅舍的老板人称路大夫。路大夫以大海治愈人心的口号成功地把自己打造成一个温暖大叔，又自封了个东极岛食神的名号，我观察了一段时间，发现所谓东极岛食神根本就是纸糊的，路大夫每天在厨房里纯属瞎几把整，于是在一个合适的时机，以一道大盘鸡KO了他。<br>岛上物资匮乏，各种食品和生活用品价格跟欧洲水准持平，土豆萝卜和洋葱最便宜，起步价，六到八块一斤，偶然吃到颗圣女果都觉得美味无比。<br>我每天几乎都吃一样的东西，中午通常是番茄蛋饭或酱油面，晚上拌点儿凉菜，海蜇皮、洋葱黄瓜西红柿什么的，或者几条小咸鱼干。<br>天气好，兴致高又没灵感的时候也去海边礁石上捡点儿小海螺和海草塞塞牙缝，也不是老去，风浪大的时候就不去，风浪大的时候太危险，礁石湿滑，稍不小心，突然一个毫无征兆的浪就给你拍海里去。</p>
+<p>3.人生三大错觉<br>青年旅舍是很吵闹的地方，甭管是比我还要老的家伙还是那些95后的碎怂，每天跟打了鸡血似的，没人愿意像我一样安安静静地待着，内天有几个四川来的锤子竟然跑过来问我说这里有没有麻将拿来搓搓我日他哥的。<br>我是一特别挑剔和强硬的家伙，对很多人和事儿都看不惯，这挺不好的，不招人喜欢，北京话管我这种人叫事儿逼，宁夏话叫事包、球事多，球毛病多的很。<br>从小到大喜欢的东西没多少，喜欢一个人也难，再说我到这岛上是来工作的，不是来交友的，所以除了路大夫和卖菜的老阿姨，尽量避免跟任何不必要的人说话。<br>说什么说，别说了，您是作家也好，画家也好，民谣歌手也好，鸡也好，我不关心，您爱是干嘛的干嘛的，非要说，非要硬聊的话，我只能说对不起，我对您没兴趣，我不只是对您没兴趣，我对绝大多数人都没兴趣，您最好也别对我有兴趣。出来旅行，谁不希望有个好心情，所以别跟我这儿没话找话，踏踏实实吃您的火腿肠方便面，别来我这儿找不痛快。<br>所以别瞎打听，我每天在岛上干嘛与您无关，少喝点儿鸡汤，这对你们有好处，聊什么聊，我是来流放的，不是来流芳的，我无意跟谁成为朋友，我的朋友不在这里，我的朋友，甭管活的死的，还有我想念的人儿，都在我心里。<br>人不光不需要太多朋友，还有很多东西都是不需要的。<br>人生有三大错觉：1、我有才华；2、我长得好看；3、他（她）喜欢我。<br>人嘛，总难免自恋，总觉得自个儿优秀，天赋异禀，鹤立鸡群，其实是您想多了，幻觉而已，您要真是木秀于林，狂蜂浪蝶早扑上来了，您不会有闲工夫到处主动跟人搭讪的，我看您的症结主要是欣赏自己欣赏得太久了，看的时间长了，总能发现点儿什么优点，但是具体丑不丑还是要问你家镜子。<br>不过说不和人聊天，前几天还是和一个小孩儿喝了顿酒。</p>
+<p>4.鬼浪<br>那天下午路过码头，看见一小孩儿跟那儿钓鱼。<br>我不会钓鱼，挺想学会这门儿技能的，有点儿好奇，所以走过去围观。<br>小孩儿没鱼竿，就在手指头上绕了根儿鱼线，鱼线上绑个生锈的镙母做坠子。看我过来，小孩对我友善地微笑，我感到愉悦，也回报以微笑。<br>“用手指头能钓上来吗？”<br>“我试试看，”小孩儿挺憨厚地笑，“应该可以。”<br>天快黑的时候，我正做音乐，小孩儿拎了一个小桶进来冲我乐，也不知道说了个甚，我摘了耳机，面无表情，你说什么？<br>小孩儿把桶递给我，说我钓的，送给你，你能做饭，给你吃。<br>我问小孩儿说你住在哪家客栈？小孩儿说我就住这儿啊。<br>早上起来，洗衣服喝茶做音乐，到中午的时候肚子饿了，去山下买挂面，出门前看见小孩儿坐在阳台上独自看海，小孩儿看见我又笑了，我也对他点了点头。<br>下午，太阳快落山了，放下电脑，出来伸个懒腰，发现小孩儿还一个人坐在阳台上看海。<br>心里有点儿不忍，于是问，你这两天在哪儿吃饭？<br>小孩儿说我随便吃呢，方便面饼干什么的，这里的饼干贵的很，一小袋要十块钱。<br>你能喝酒吗？我说。<br>小孩儿说我平时不喝酒，但我是西北人，我可以喝。<br>我说你不是会钓鱼么，你去钓鱼吧，我也是西北人，晚上你跟我一起吃饭。<br>到六点多，天已经麻麻黑了，小孩儿还没回来，我有点儿担心，这岛上每隔两年就会有溺毙的游客被渔民从海底拖上来。<br>听路大夫讲，去年，一个对浪漫充满幻想的文艺女青年，登岛当天就挂了一岛上的土著帅哥，到晚上九十点了，俩人还不舍得回去休息，在海边码头上搂抱着谈心，突然就来了一个浪。<br>据说那天晚上有个睡不着觉的老头去海边交水费，路过码头的时候，老头看到了那天晚上唯一的那个浪，鬼浪啊这是，老头后来说。<br>老头儿听到风中隐约似乎传来声微弱的、呼喊救命的声音，但是只有一声，就再没动静了。<br>老头儿老了，对自己的听力也不够有信心，而且十年前老婆死后他就开始出现幻听了，老听见老婆在耳边念叨，再说人到了这个岁数，耳背很正常。<br>楞了一会儿，老头儿始终没敢走近海边去看，怕再来一个浪给他卷了，老婆也又开始在耳边说话，让他快回家。老头儿没了主意，可能是听错了，老头儿想，可是万一没听错呢？以防万一，老头儿还是往海里丢了个救生圈，然后回去睡觉了。<br>第二天早上，路大夫刚起床，这天的阳光很好，正好晒一下自己的香港脚，这并不丢人，常年海边生活，缺乏维生素B，毛驴都会长脚气，除非是骡子，骡子就不会生病。<br>在来信青年旅舍的阳台上，路大夫一边晒脚，一边搓眼睛，眼屎巴得有点牢，他花了很长时间耐心地搓，搓干净之后，路大夫才看清，海面上有几个渔民跟那儿忙碌，这几个家伙在捞什么好吃的呢？路大夫起了些疑惑，这里是航路，没人在这里捕鱼的啊。<br>渔民们湿漉漉地爬上船，然后发动马达朝岸边开来，路大夫这时候才赫然发现船后面的绳子上拖着两个人，那是一个男孩儿和一个女孩儿，两根绳子分别栓着他们的一只脚，女孩脸朝下，男孩脸朝上，都被海水泡得白白的，肿胀得不像样子，螺旋桨翻卷出的波浪中，两人的身体起起伏伏，相互碰撞着。<br>豆蔻年华啊，路大夫叹了口气，这么年轻好看的两个人儿，说没就没了。<br>拇指和食指的指甲猛得一用力，扽下根毫无防备的胡须，路大夫端详了一阵，露出了满意的笑容。</p>
+<p>5.看电影<br>天彻底黑了，小孩儿回来了，我说，怎么这么晚？<br>小孩儿把桶放下，一脸愧疚，说今天没钓到多少，天黑了，实在看不见了。<br>你去休息吧，我说，待会儿吃饭我叫你，不用非要钓到鱼的，唉。<br>我很少叹气，西北民间有种说法，爱叹气的人容易谢顶，死得也早。<br>小时候在江苏老家看过鸬鹚捉鱼，鸬鹚被渔夫用竹竿赶下船去，过一会儿，便纷纷扑腾着、挣扎着跳上船来，然后被渔夫一把捏住喉咙，把鱼吐出来，再挨个儿踢下水去。<br>我经常想，如果哪一只鸬鹚没捉到鱼，会不会不敢回家？<br>小孩儿昨天钓到鱼在冰箱里冻着，加上今天钓的，收拾好，满满摆了一盘。<br>这是种非常漂亮的鱼，背鳍如锯，通体艳红，闽粤一带管这鱼叫石九公，东极这边叫斧头鱼，我查了下，虎头鱼，南方人大舌头闹的，这鱼学名叫褐菖鲉，拉丁名Sebastiscus marmoratus Cuvier，清蒸或加姜丝煮汤，味道好极了。<br>几杯猫尿下肚，小孩话开始多了，我话也开始多了。<br>我说你怎么会想起来到东极岛来玩儿？<br>小孩吭哧了会儿，说我失恋了。<br>嚯哈哈哈哈哈，忍不住仰天长啸，脑子里开始过电影，往事一幕幕浮现在眼前。<br>你看，一个中年男人，千里迢迢，独自一人来到东福山这座中国最东边的小岛，他一路都没有跟任何人说过一句话，一下船就向山顶爬去。<br>那时候还没人来这里拍电影，所以没什么游客，整座大山里只有他一个人。他消瘦的身影在蜿蜒曲折的山间小路上时隐时现，天气炎热，他气喘吁吁地爬，很久没有好好吃饭了，加上每天大量饮酒，他的体力变得很差，爬一会儿就要停下来喝水、擦汗。<br>花了整整两个小时，他终于爬到了象鼻峰峰顶。<br>喘息片刻，他一件件脱光了身上的衣服，依次叠好，放在脚边，然后赤裸着身体，走到悬崖边。<br>面朝大海，海风轻抚他忧郁的面庞，古道西风瘦马，夕阳西下，老树昏鸦，断肠人在天涯。<br>他长久地凝视远方，远方，连个屁都没有。<br>伫立良久，他突然笑了起来，笑得莫名其妙，笑声跟哭一样，妈的全是骗子！什么他妈象鼻峰，一点都不像大象！他大叫，马瘦毛长，瘦驴拉硬屎，他妈的我不服！不服！<br>他在空无一人的山峰上大声喊，人生以痛吻我，人生我操你妈！<br>海面上传来汽笛的声音，他平静下来，想起那些关心他的家人和朋友，他们跟他说，回来吧，还有我们呢。<br>他在悬崖边上往下撒了泡长长的尿，然后回过头，离开悬崖边缘，在平坦的石头上坐下来，岩石被阳光晒得热乎乎的，捂热了他冰凉的睾丸，象鼻峰像爱人一样拥抱、接纳了他。</p>
+<p>6.又掌握了一门生活技能<br>笑声戛然而止，表情恢复成出厂设置，看着坐在我对面的这个年轻人，想当年，我也是万念俱灰地跑到这片啥吃的都冇的海上来的。<br>这种事儿算个屁，我说，谁离了谁活不下去啊？<br>“可是我就是忍不住想她。”<br>别犯贱，我说，你还年轻，目测身高也接近了一米七。而且即便你们还在一起，她也不会永远爱你，你也有可能不会永远爱她。<br>美好时光一去不返，唯一不变的是所有的事物都一直在变，这就叫无常，我说，我们怀恋的有可能不是具体的某个人，我们怀恋的只是与其有关的那些美好回忆或者所谓爱情的感觉罢了，所以说不要幻想，要抛弃幻想，什么他妈远方，等你到了远方，就知道远方根本没有什么不一样。<br>远方也好，自由也好，都是些虚无缥缈的空辞，真正的自由和远方，永远在人的心里。<br>小孩儿走的那天欲言又止，憋了半天走过来，哥，能不能加一下你微信？<br>我觉得没必要，我说，我帮不了你，不过希望你尽快忘掉那些糟糕的事情，还有，记得保持微笑，老天爷会眷顾爱笑的人的。<br>前几天，蹭路大夫租的快艇出海看风景，我们绕足了东极海域整整一周。<br>海上的天气风云莫测，宛如人生，一会儿风平浪静，一会儿风大浪急，一会儿大雾弥漫，一会儿又阳光普照。<br>到象鼻峰的时候，船停了下来，太震撼了，一行人感叹不已，原来要从海上看，才能发现象鼻峰真是头大象。<br>从前没看到大象，是因为我站在大象头上。<br>对了，我学会钓鱼了，跟小孩儿学的，鱼线那头绑个大螺丝，然后丢进海里，鱼线绕在手指头上。下午在海边坐了会儿，真的钓到了虎头鱼，五条。<br>回来煮了碗汤，喝了一口，好甜啊，路大夫抹了抹嘴，露出满意的笑。</p>
+]]></content>
+      <categories>
+        <category>每日一文</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
 </search>
