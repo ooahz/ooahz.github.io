@@ -1,313 +1,1438 @@
-
 <!DOCTYPE html>
-<html lang="en" class="loading">
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>白夜</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="WhiteNight,白夜,个人博客,爱音悦,白夜助手,ZH,"> 
-    
-    <meta name="author" content="WhiteNight"> 
-    <link rel="alternative" href="atom.xml" title="白夜" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <meta charset="utf-8">
+  
 
-    
-<link rel="stylesheet" href="/css/diaspora.css">
+  
+  <title>白夜</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="白夜">
+<meta property="og:url" content="https://whitenight999.top/page/2/index.html">
+<meta property="og:site_name" content="白夜">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="WhiteNight">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="白夜" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-8691406134231910",
-              enable_page_level_ads: true
-         });
-    </script>
-    <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
 <meta name="generator" content="Hexo 4.2.1"></head>
 
-<body class="loading">
-    <span id="config-title" style="display:none">白夜</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">白夜</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="//" title="首页" target="_blank" rel="noopener">首页</a>
-        </li>
+          <a class="main-nav-link" href="/">Home</a>
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
-        </li>
+          <a class="main-nav-link" href="/archives">Archives</a>
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
-        </li>
+      </nav>
+      <nav id="sub-nav">
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="归档" target="_blank" rel="noopener">归档</a>
-        </li>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/about/" title="关于" target="_blank" rel="noopener">关于</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/friends/" title="友链" target="_blank" rel="noopener">友链</a>
-        </li>
-        
-    </ul>
-	<span class="target"></span>
-	<center>
-	<div class="hitokoto">
-		<span class="typed" id="hitokoto" data-st="true"></span>
-	</div>
-	</center>
-	
-	 <center>  
-	<div class="timedate">   
-   <span id="timeDate"><div></div>载入天数...</span><span id="times">载入时分秒...</span>
-<script>
-    var now = new Date(); 
-    function createtime() { 
-        var grt= new Date("05/20/2020 20:20:20");//此处修改你的建站时间或者网站上线时间 
-        now.setTime(now.getTime()+250); 
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-    } 
-setInterval("createtime()",250);
-</script>
-	</div>
-		</center>
-	 <center>  
-	<div class="busuanzi">   		
-
-    <!-- 不蒜子统计 -->
-    <span >
-            本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span >
-            本站访客数<span id="busuanzi_value_site_uv"></span>人
-    </span>
-    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-</div>
-		</center> 
-	<p class="footerlinks">
-		<a href="#" class="iconfont icon-null"></a>
-		
-            <a href="https://github.com/WhiteNight999" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
-        
-            <a href="/img/qrcode.jpg" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
-        
-            <a href="mailto:z1359256243@gmail.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
-        
-		<a href="#" class="iconfont icon-null"></a>
-	</p>
-	
-    <p id="copyright">
-        &copy; 2020 WhiteNight.
-        <span> | </span>Powered by <a href="https://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
-		
-   </p>
-
-</div>
-
-<div id="container">
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://whitenight999.top"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-html" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/22/html/" class="article-date">
+  <time datetime="2020-05-22T09:05:00.000Z" itemprop="datePublished">2020-05-22</time>
+</a>
     
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
-        <div>
-            <a class="image-logo" href="/"></a>
-			
-			<div class="iconfont icon-search switchsearch" href="/search/" title="搜索"></div>
-			
-            <div class="iconfont icon-menu switchmenu"></div>
-        </div>
-    </div>
-    
-    <div id="post0">
-        <p>五月 22, 2020</p>
-        <h2><a href="/2020/05/22/markdown/" title="一些Markdown的常用技巧总结" class="posttitle">一些Markdown的常用技巧总结</a></h2>
-        <p class="summary">0. 前言使用之前先来了解一下什么是Markdown。百度搜索词条“Markdown” ，或者点Markdown查...</p>
-    </div>
-    
-</div>
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Web/">Web</a>
+  </div>
 
-    <div id="primary">
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
         
-<div class="post">
-    <a href="/2020/05/22/markdown/" title="一些Markdown的常用技巧总结">
-        <img src="/blogpic/3.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>五月 22, 2020</p>
-        <h3><a href="/2020/05/22/markdown/" title="一些Markdown的常用技巧总结" class="posttitle">一些Markdown的常用技巧总结</a></h3>
-        <p>0. 前言使用之前先来了解一下什么是Markdown。百度搜索词条“Markdown” ，或者点Markdown查看。
-1. 标题1234# 一级标题##...</p>
-    </div>
-</div>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/22/html/">一些常用的html代码总结</a>
+    </h1>
+  
 
-
-<div class="post">
-    <a href="/2020/05/22/music/" title="【开源推荐】进阶实战，从一款音乐播放器开始">
-        <img src="/blogpic/2.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>五月 22, 2020</p>
-        <h3><a href="/2020/05/22/music/" title="【开源推荐】进阶实战，从一款音乐播放器开始" class="posttitle">【开源推荐】进阶实战，从一款音乐播放器开始</a></h3>
-        <p>0.前言
-
-本篇文章主要介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：
-1. Timb...</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2020/05/22/color/" title="常用颜色表">
-        <img src="/blogpic/1.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>五月 22, 2020</p>
-        <h3><a href="/2020/05/22/color/" title="常用颜色表" class="posttitle">常用颜色表</a></h3>
-        <p>
-
-
-&nbsp;
-颜色名
-中文名称
-Hex&nbsp;RGB
-十进制 Decimal
-&nbsp;
-
-&nbsp;
-LightPink
-浅粉红
-#FFB...</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2020/05/21/blog/" title="饮茶时光">
-        <img src="/blogpic/3.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>五月 21, 2020</p>
-        <h3><a href="/2020/05/21/blog/" title="饮茶时光" class="posttitle">饮茶时光</a></h3>
-        <p>饮茶时光
- 梁文道 
-尾指应该曲折起来，还是自然地往外伸出呢？这是个问题，是个礼貌的问题，这是个有关喝茶的礼貌的问题。
-
-我说的是在英式饮茶的时候，持杯手...</p>
-    </div>
-</div>
-
-
-    </div>
+      </header>
     
-</div>
-<div id="preview"></div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>网页的描述，关键字，作者及其他元素：<code>meta name=&quot;&quot; content=&quot;&quot;</code></p>
+<p>客户端脚本：<code>&lt;script&gt;window.alert(&#39;&#39;);&lt;script&gt;</code></p>
+<p>文档的样式信息：<code>&lt;style&gt;&lt;/style&gt;</code></p>
+<p>引进图片：<code>img src</code></p>
+<p>换行：<code>br</code></p>
+<p>超级链接：<code>a herf</code></p>
+<p>新的页面打开：<code>target=&quot;_blank&quot;</code></p>
+<p>无序列表：<code>&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</code></p>
+<p>有序列表：<code>&lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</code></p>
+<p>表格的页眉：<code>thead</code></p>
+<p>表格的主题：<code>tbody</code></p>
+<p>定义表格的页脚：<code>tfood</code></p>
+<p>定义表格：<code>table</code></p>
+<p>边框：<code>border</code></p>
+<p>单元格边框与内容的间距：<code>cellbadding</code></p>
+<p>单元格之间的间距：<code>cellspacing</code></p>
+<p>表格的表头：<code>th</code></p>
+<p>表格的行：<code>tr</code></p>
+<p>表格的单元：<code>td</code></p>
+<p>表单：<code>form action=&quot;浏览者输入的数据被传送到的地方&quot; methot=&quot;数据传送的方式&quot;(get或post)</code></p>
+<p>文本框：<code>&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;&quot;&gt;&lt;br&gt;</code></p>
+<p>密码框：<code>&lt;input type=&quot;password&quot; name=&quot;password&quot; value=&quot;&quot;&gt;&lt;br&gt;</code></p>
+<p>单选框：<code>radio</code>   当type=radio时为单选框</p>
+<p>多选框：<code>checkbox</code>  当type=checkbox时为多选框</p>
+<p>默认选项：<code>checked</code></p>
+<p><code>[]</code>:多个值，数组</p>
+<p>下拉列表框：<code>&lt;select name=&quot;&quot;&gt;选项&lt;option value=&quot;&quot;&gt;&lt;/option&gt;&lt;/select&gt;</code></p>
+<p>默认选中：<code>selected</code></p>
+<p>多行文本：<code>&lt;textarea name&quot;&quot;&gt;&lt;/textarea&gt;</code></p>
+<p>行数：<code>cols</code></p>
+<p>列数：<code>rows</code></p>
+<p>上传图片头像或场景：<code>&lt;input type=&quot;file&quot;/&gt;</code></p>
+<p>提交按钮：<code>&lt;input type=&quot;submit&quot; value=提交&gt;</code></p>
+<p>重置按钮：<code>&lt;input type=&quot;reset&quot; value=重置&gt;</code></p>
 
-
-
-<script src="/live2dw/lib/L2Dwidget.min.js?9b7423608b13e69bff5e7ed8cb9541c2"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
-
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
-
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/typed.js"></script>
-<script src="/js/diaspora.js"></script>
-
-
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-
-
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
+      
     </div>
-</div>
+    <footer class="article-footer">
+      <a data-url="https://whitenight999.top/2020/05/22/html/" data-id="ckm5ysw6b0016d4xsh7x1dy9s" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Html/" rel="tag">Html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E5%B7%A7/" rel="tag">技巧</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-music" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/22/music/" class="article-date">
+  <time datetime="2020-05-22T03:11:00.000Z" itemprop="datePublished">2020-05-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AE%89%E5%8D%93/">安卓</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/22/music/">【开源推荐】进阶实战，从一款音乐播放器开始</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4>0.前言</h4>
+
+<p>本篇文章主要介绍几个不错的开源Android音乐播放器，UI美观，代码质量不错，如果你正打算找一个项目练练手，那么不妨去看看：</p>
+<h5>1. Timber</h5>
+<img src="https://whitenight999.gitee.io/blogpic/music/1.jpg" alt="图片"/>
+<p>Timber 是一款功能强大的开源音乐播放器，有如下功能：</p>
+<ul>
+<li>Material Design 设计</li>
+<li>歌曲、专辑、歌手 浏览</li>
+<li>创建、编辑播放列表</li>
+<li>桌面widgets控件</li>
+<li>主题切换</li>
+<li>支持Android手表和车载</li>
+<li>通知和歌词等等。</li>
+</ul>
+<p>功能全面，界面遵循Material Design 设计规范，非常漂亮，里面也有一些炫酷的自定义控件，如果你想找一个开源项目来模仿和练习实战，这个项目是个不错的参考。</p>
+<p><strong><em>地址：</em></strong><a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fnaman14%2FTimber" target="_blank" rel="nofollow">https://github.com/naman14/Timber</a></p>
+<p>Github star: <strong><em>4.2k</em></strong></p>
+<h4>2. remusic(高仿网易云音乐app)</h4>
+<img src="https://whitenight999.gitee.io/blogpic/music/2.jpg" alt="图片"/>
+<p>网易云音乐应该算是国内最好音乐APP之一，我也是网易云音乐的忠实用户，不仅app界面美观，整个社区也是做的很好，在音乐推荐方面深的人心，几乎每一首都符合口味.</p>
+
+<p>而<strong>remusic</strong>是对网易乐音乐app的高仿，界面几乎一模一样， 功能很全面，项目中有使用一些优秀的开源框架：</p>
+
+<p>还有一些自定义View ，如歌词控件、播放进度控件、暂定、播放控件等等。如果你想开发一款音乐播放器来实战进阶，remusic 是一个不错的参考开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Faa112901%2Fremusic" target="_blank" rel="nofollow">https://github.com/aa112901/remusic</a><br>
+Github star: <strong><em>3.9k</em></strong></p>
+<h4>3. ListenerMusicPlayer（高仿轻听app）</h4>
+ <img src="https://whitenight999.gitee.io/blogpic/music/4.jpg" alt="图片"/>
+<p>轻听是腾讯出品的一款Android本地音乐播放器，颜值爆表，非常小清新，整体设计运用Material Design风格，配合优雅的场景转换和涟漪效果、便捷的手势操作，让你一见倾心，保证你看到就会喜欢上它。</p>
+<img src="https://whitenight999.gitee.io/blogpic/music/5.jpg" alt="图片"/>
+<p><strong>ListenerMusicPlayer</strong> 是高仿的 听听app界面和交互，使用 Lastfm Api 与 酷狗歌词Api。项目架构采用 mvp-clean，基于 Retrofit2 + Dagger2 + Rxjava + RxBus + Glide。</p>
+<p>里面也有一些炫酷的动画效果，是一个值得参考的开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fhefuyicoder%2FListenerMusicPlayer" target="_blank" rel="nofollow">https://github.com/hefuyicoder/ListenerMusicPlayer</a><br>
+Github star: <strong><em>1.9k</em></strong></p>
+<h4>4. android-UniversalMusicPlayer</h4>
+ <img src="https://whitenight999.gitee.io/blogpic/music/6.jpg" alt="图片"/>
+<p>android-UniversalMusicPlayer 是 google 的 一个音乐播放器示例App,没有炫酷库的UI,重点展示如何使用Android api 来打造一个自己的多媒体播放器。项目中不仅有手机上播放器的示例，更有多种其他平台，如平板、手表、车载、电视等等。是一个很好的学习多媒体相关api的开源项目。</p>
+<p>地址：<a href="https://link.jianshu.com?t=https%3A%2F%2Fgithub.com%2Fgooglesamples%2Fandroid-UniversalMusicPlayer" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
+<p>Github star:<strong><em>9k</em></strong></p>
+<h4>5. 其它推荐</h4>
+<p>MeetMusic：<a href="https://github.com/lijunyandev/MeetMusic" target="_blank" rel="nofollow">https://github.com/googlesamples/android-UniversalMusicPlayer</a></p>
+<p>本地播放器：<a href="https://github.com/PonnyDong/android-" target="_blank" rel="nofollow">https://github.com/PonnyDong/android-r</a></p>
+<h4>6.总结</h4>
+<p>其实写一个音乐播放器还是挺锻炼人的，涉及的知识面广，对于初、中级Android 工程师适合。本篇文章介绍了4个优秀的开源音乐播放器，有兴趣的可以去看看研究一下。我相信写完后对你的帮助会很大的。如果你还有什么优秀的开源库推荐，欢迎文末留言。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://whitenight999.top/2020/05/22/music/" data-id="ckm5ysw660011d4xs7sg789z2" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%92%AD%E6%94%BE%E5%99%A8/" rel="tag">播放器</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-color" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/22/color/" class="article-date">
+  <time datetime="2020-05-22T00:40:00.000Z" itemprop="datePublished">2020-05-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Web/">Web</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/22/color/">常用颜色表</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <table width="100%">
+<tbody>
+<tr>
+<td width="15%" align="middle">&nbsp;</td>
+<td align="middle">颜色名</td>
+<td height="28" align="middle">中文名称</td>
+<td align="middle">Hex&nbsp;RGB</td>
+<td align="middle">十进制 Decimal</td>
+<td width="15%" align="middle">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffb6c1">&nbsp;</td>
+<td bgcolor="#dedede">LightPink</td>
+<td bgcolor="#dedede" height="28">浅粉红</td>
+<td bgcolor="#c0c0c0">#FFB6C1</td>
+<td bgcolor="#c0c0c0">255,182,193</td>
+<td bgcolor="#ffb6c1">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffc0cb">&nbsp;</td>
+<td bgcolor="#dedede">Pink</td>
+<td bgcolor="#dedede" height="28">粉红</td>
+<td bgcolor="#c0c0c0">#FFC0CB</td>
+<td bgcolor="#c0c0c0">255,192,203</td>
+<td bgcolor="#ffc0cb">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#dc143c">&nbsp;</td>
+<td bgcolor="#dedede">Crimson</td>
+<td bgcolor="#dedede" height="28">深红(猩红)</td>
+<td bgcolor="#c0c0c0">#DC143C</td>
+<td bgcolor="#c0c0c0">220,20,60</td>
+<td bgcolor="#dc143c">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fff0f5">&nbsp;</td>
+<td bgcolor="#dedede">LavenderBlush</td>
+<td bgcolor="#dedede" height="28">淡紫红</td>
+<td bgcolor="#c0c0c0">#FFF0F5</td>
+<td bgcolor="#c0c0c0">255,240,245</td>
+<td bgcolor="#fff0f5">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#db7093">&nbsp;</td>
+<td bgcolor="#dedede">PaleVioletRed</td>
+<td bgcolor="#dedede" height="28">弱紫罗兰红</td>
+<td bgcolor="#c0c0c0">#DB7093</td>
+<td bgcolor="#c0c0c0">219,112,147</td>
+<td bgcolor="#db7093">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff69b4">&nbsp;</td>
+<td bgcolor="#dedede">HotPink</td>
+<td bgcolor="#dedede" height="28">热情的粉红</td>
+<td bgcolor="#c0c0c0">#FF69B4</td>
+<td bgcolor="#c0c0c0">255,105,180</td>
+<td bgcolor="#ff69b4">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff1493">&nbsp;</td>
+<td bgcolor="#dedede">DeepPink</td>
+<td bgcolor="#dedede" height="28">深粉红</td>
+<td bgcolor="#c0c0c0">#FF1493</td>
+<td bgcolor="#c0c0c0">255,20,147</td>
+<td bgcolor="#ff1493">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#c71585">&nbsp;</td>
+<td bgcolor="#dedede">MediumVioletRed</td>
+<td bgcolor="#dedede" height="28">中紫罗兰红</td>
+<td bgcolor="#c0c0c0">#C71585</td>
+<td bgcolor="#c0c0c0">199,21,133</td>
+<td bgcolor="#c71585">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#da70d6">&nbsp;</td>
+<td bgcolor="#dedede">Orchid</td>
+<td bgcolor="#dedede" height="28">暗紫色(兰花紫)</td>
+<td bgcolor="#c0c0c0">#DA70D6</td>
+<td bgcolor="#c0c0c0">218,112,214</td>
+<td bgcolor="#da70d6">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#d8bfd8">&nbsp;</td>
+<td bgcolor="#dedede">Thistle</td>
+<td bgcolor="#dedede" height="28">蓟色</td>
+<td bgcolor="#c0c0c0">#D8BFD8</td>
+<td bgcolor="#c0c0c0">216,191,216</td>
+<td bgcolor="#d8bfd8">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#dda0dd">&nbsp;</td>
+<td bgcolor="#dedede">Plum</td>
+<td bgcolor="#dedede" height="28">洋李色(李子紫)</td>
+<td bgcolor="#c0c0c0">#DDA0DD</td>
+<td bgcolor="#c0c0c0">221,160,221</td>
+<td bgcolor="#dda0dd">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ee82ee">&nbsp;</td>
+<td bgcolor="#dedede">Violet</td>
+<td bgcolor="#dedede" height="28">紫罗兰</td>
+<td bgcolor="#c0c0c0">#EE82EE</td>
+<td bgcolor="#c0c0c0">238,130,238</td>
+<td bgcolor="#ee82ee">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff00ff">&nbsp;</td>
+<td bgcolor="#dedede">Magenta</td>
+<td bgcolor="#dedede" height="28">洋红(玫瑰红)</td>
+<td bgcolor="#c0c0c0">#FF00FF</td>
+<td bgcolor="#c0c0c0">255,0,255</td>
+<td bgcolor="#ff00ff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff00ff">&nbsp;</td>
+<td bgcolor="#dedede">Fuchsia</td>
+<td bgcolor="#dedede" height="28">紫红(灯笼海棠)</td>
+<td bgcolor="#c0c0c0">#FF00FF</td>
+<td bgcolor="#c0c0c0">255,0,255</td>
+<td bgcolor="#ff00ff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#8b008b">&nbsp;</td>
+<td bgcolor="#dedede">DarkMagenta</td>
+<td bgcolor="#dedede" height="28">深洋红</td>
+<td bgcolor="#c0c0c0">#8B008B</td>
+<td bgcolor="#c0c0c0">139,0,139</td>
+<td bgcolor="#8b008b">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#800080">&nbsp;</td>
+<td bgcolor="#dedede">Purple</td>
+<td bgcolor="#dedede" height="28">紫色</td>
+<td bgcolor="#c0c0c0">#800080</td>
+<td bgcolor="#c0c0c0">128,0,128</td>
+<td bgcolor="#800080">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ba55d3">&nbsp;</td>
+<td bgcolor="#dedede">MediumOrchid</td>
+<td bgcolor="#dedede" height="28">中兰花紫</td>
+<td bgcolor="#c0c0c0">#BA55D3</td>
+<td bgcolor="#c0c0c0">186,85,211</td>
+<td bgcolor="#ba55d3">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#9400d3">&nbsp;</td>
+<td bgcolor="#dedede">DarkViolet</td>
+<td bgcolor="#dedede" height="28">暗紫罗兰</td>
+<td bgcolor="#c0c0c0">#9400D3</td>
+<td bgcolor="#c0c0c0">148,0,211</td>
+<td bgcolor="#9400d3">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#9932cc">&nbsp;</td>
+<td bgcolor="#dedede">DarkOrchid</td>
+<td bgcolor="#dedede" height="28">暗兰花紫</td>
+<td bgcolor="#c0c0c0">#9932CC</td>
+<td bgcolor="#c0c0c0">153,50,204</td>
+<td bgcolor="#9932cc">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#4b0082">&nbsp;</td>
+<td bgcolor="#dedede">Indigo</td>
+<td bgcolor="#dedede" height="28">靛青/紫兰色</td>
+<td bgcolor="#c0c0c0">#4B0082</td>
+<td bgcolor="#c0c0c0">75,0,130</td>
+<td bgcolor="#4b0082">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#8a2be2">&nbsp;</td>
+<td bgcolor="#dedede">BlueViolet</td>
+<td bgcolor="#dedede" height="28">蓝紫罗兰</td>
+<td bgcolor="#c0c0c0">#8A2BE2</td>
+<td bgcolor="#c0c0c0">138,43,226</td>
+<td bgcolor="#8a2be2">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#9370db">&nbsp;</td>
+<td bgcolor="#dedede">MediumPurple</td>
+<td bgcolor="#dedede" height="28">中紫色</td>
+<td bgcolor="#c0c0c0">#9370DB</td>
+<td bgcolor="#c0c0c0">147,112,219</td>
+<td bgcolor="#9370db">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#7b68ee">&nbsp;</td>
+<td bgcolor="#dedede">MediumSlateBlue</td>
+<td bgcolor="#dedede" height="28">中暗蓝色(中板岩蓝)</td>
+<td bgcolor="#c0c0c0">#7B68EE</td>
+<td bgcolor="#c0c0c0">123,104,238</td>
+<td bgcolor="#7b68ee">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#6a5acd">&nbsp;</td>
+<td bgcolor="#dedede">SlateBlue</td>
+<td bgcolor="#dedede" height="28">石蓝色(板岩蓝)</td>
+<td bgcolor="#c0c0c0">#6A5ACD</td>
+<td bgcolor="#c0c0c0">106,90,205</td>
+<td bgcolor="#6a5acd">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#483d8b">&nbsp;</td>
+<td bgcolor="#dedede">DarkSlateBlue</td>
+<td bgcolor="#dedede" height="28">暗灰蓝色(暗板岩蓝)</td>
+<td bgcolor="#c0c0c0">#483D8B</td>
+<td bgcolor="#c0c0c0">72,61,139</td>
+<td bgcolor="#483d8b">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#e6e6fa">&nbsp;</td>
+<td bgcolor="#dedede">Lavender</td>
+<td bgcolor="#dedede" height="28">淡紫色(熏衣草淡紫)</td>
+<td bgcolor="#c0c0c0">#E6E6FA</td>
+<td bgcolor="#c0c0c0">230,230,250</td>
+<td bgcolor="#e6e6fa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f8f8ff">&nbsp;</td>
+<td bgcolor="#dedede">GhostWhite</td>
+<td bgcolor="#dedede" height="28">幽灵白</td>
+<td bgcolor="#c0c0c0">#F8F8FF</td>
+<td bgcolor="#c0c0c0">248,248,255</td>
+<td bgcolor="#f8f8ff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#0000ff">&nbsp;</td>
+<td bgcolor="#dedede">Blue</td>
+<td bgcolor="#dedede" height="28">纯蓝</td>
+<td bgcolor="#c0c0c0">#0000FF</td>
+<td bgcolor="#c0c0c0">0,0,255</td>
+<td bgcolor="#0000ff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#0000cd">&nbsp;</td>
+<td bgcolor="#dedede">MediumBlue</td>
+<td bgcolor="#dedede" height="28">中蓝色</td>
+<td bgcolor="#c0c0c0">#0000CD</td>
+<td bgcolor="#c0c0c0">0,0,205</td>
+<td bgcolor="#0000cd">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#191970">&nbsp;</td>
+<td bgcolor="#dedede">MidnightBlue</td>
+<td bgcolor="#dedede" height="28">午夜蓝</td>
+<td bgcolor="#c0c0c0">#191970</td>
+<td bgcolor="#c0c0c0">25,25,112</td>
+<td bgcolor="#191970">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00008b">&nbsp;</td>
+<td bgcolor="#dedede">DarkBlue</td>
+<td bgcolor="#dedede" height="28">暗蓝色</td>
+<td bgcolor="#c0c0c0">#00008B</td>
+<td bgcolor="#c0c0c0">0,0,139</td>
+<td bgcolor="#00008b">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#000080">&nbsp;</td>
+<td bgcolor="#dedede">Navy</td>
+<td bgcolor="#dedede" height="28">海军蓝</td>
+<td bgcolor="#c0c0c0">#000080</td>
+<td bgcolor="#c0c0c0">0,0,128</td>
+<td bgcolor="#000080">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#4169e1">&nbsp;</td>
+<td bgcolor="#dedede">RoyalBlue</td>
+<td bgcolor="#dedede" height="28">皇家蓝/宝蓝</td>
+<td bgcolor="#c0c0c0">#4169E1</td>
+<td bgcolor="#c0c0c0">65,105,225</td>
+<td bgcolor="#4169e1">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#6495ed">&nbsp;</td>
+<td bgcolor="#dedede">CornflowerBlue</td>
+<td bgcolor="#dedede" height="28">矢车菊蓝</td>
+<td bgcolor="#c0c0c0">#6495ED</td>
+<td bgcolor="#c0c0c0">100,149,237</td>
+<td bgcolor="#6495ed">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#b0c4de">&nbsp;</td>
+<td bgcolor="#dedede">LightSteelBlue</td>
+<td bgcolor="#dedede" height="28">亮钢蓝</td>
+<td bgcolor="#c0c0c0">#B0C4DE</td>
+<td bgcolor="#c0c0c0">176,196,222</td>
+<td bgcolor="#b0c4de">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#778899">&nbsp;</td>
+<td bgcolor="#dedede">LightSlateGray</td>
+<td bgcolor="#dedede" height="28">亮蓝灰(亮石板灰)</td>
+<td bgcolor="#c0c0c0">#778899</td>
+<td bgcolor="#c0c0c0">119,136,153</td>
+<td bgcolor="#778899">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#708090">&nbsp;</td>
+<td bgcolor="#dedede">SlateGray</td>
+<td bgcolor="#dedede" height="28">灰石色(石板灰)</td>
+<td bgcolor="#c0c0c0">#708090</td>
+<td bgcolor="#c0c0c0">112,128,144</td>
+<td bgcolor="#708090">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#1e90ff">&nbsp;</td>
+<td bgcolor="#dedede">DodgerBlue</td>
+<td bgcolor="#dedede" height="28">闪兰色(道奇蓝)</td>
+<td bgcolor="#c0c0c0">#1E90FF</td>
+<td bgcolor="#c0c0c0">30,144,255</td>
+<td bgcolor="#1e90ff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f0f8ff">&nbsp;</td>
+<td bgcolor="#dedede">AliceBlue</td>
+<td bgcolor="#dedede" height="28">爱丽丝蓝</td>
+<td bgcolor="#c0c0c0">#F0F8FF</td>
+<td bgcolor="#c0c0c0">240,248,255</td>
+<td bgcolor="#f0f8ff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#4682b4">&nbsp;</td>
+<td bgcolor="#dedede">SteelBlue</td>
+<td bgcolor="#dedede" height="28">钢蓝/铁青</td>
+<td bgcolor="#c0c0c0">#4682B4</td>
+<td bgcolor="#c0c0c0">70,130,180</td>
+<td bgcolor="#4682b4">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#87cefa">&nbsp;</td>
+<td bgcolor="#dedede">LightSkyBlue</td>
+<td bgcolor="#dedede" height="28">亮天蓝色</td>
+<td bgcolor="#c0c0c0">#87CEFA</td>
+<td bgcolor="#c0c0c0">135,206,250</td>
+<td bgcolor="#87cefa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#87ceeb">&nbsp;</td>
+<td bgcolor="#dedede">SkyBlue</td>
+<td bgcolor="#dedede" height="28">天蓝色</td>
+<td bgcolor="#c0c0c0">#87CEEB</td>
+<td bgcolor="#c0c0c0">135,206,235</td>
+<td bgcolor="#87ceeb">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00bfff">&nbsp;</td>
+<td bgcolor="#dedede">DeepSkyBlue</td>
+<td bgcolor="#dedede" height="28">深天蓝</td>
+<td bgcolor="#c0c0c0">#00BFFF</td>
+<td bgcolor="#c0c0c0">0,191,255</td>
+<td bgcolor="#00bfff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#add8e6">&nbsp;</td>
+<td bgcolor="#dedede">LightBlue</td>
+<td bgcolor="#dedede" height="28">亮蓝</td>
+<td bgcolor="#c0c0c0">#ADD8E6</td>
+<td bgcolor="#c0c0c0">173,216,230</td>
+<td bgcolor="#add8e6">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#b0e0e6">&nbsp;</td>
+<td bgcolor="#dedede">PowderBlue</td>
+<td bgcolor="#dedede" height="28">粉蓝色(火药青)</td>
+<td bgcolor="#c0c0c0">#B0E0E6</td>
+<td bgcolor="#c0c0c0">176,224,230</td>
+<td bgcolor="#b0e0e6">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#5f9ea0">&nbsp;</td>
+<td bgcolor="#dedede">CadetBlue</td>
+<td bgcolor="#dedede" height="28">军兰色(军服蓝)</td>
+<td bgcolor="#c0c0c0">#5F9EA0</td>
+<td bgcolor="#c0c0c0">95,158,160</td>
+<td bgcolor="#5f9ea0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f0ffff">&nbsp;</td>
+<td bgcolor="#dedede">Azure</td>
+<td bgcolor="#dedede" height="28">蔚蓝色</td>
+<td bgcolor="#c0c0c0">#F0FFFF</td>
+<td bgcolor="#c0c0c0">240,255,255</td>
+<td bgcolor="#f0ffff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#e0ffff">&nbsp;</td>
+<td bgcolor="#dedede">LightCyan</td>
+<td bgcolor="#dedede" height="28">淡青色</td>
+<td bgcolor="#c0c0c0">#E0FFFF</td>
+<td bgcolor="#c0c0c0">224,255,255</td>
+<td bgcolor="#e0ffff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#afeeee">&nbsp;</td>
+<td bgcolor="#dedede">PaleTurquoise</td>
+<td bgcolor="#dedede" height="28">弱绿宝石</td>
+<td bgcolor="#c0c0c0">#AFEEEE</td>
+<td bgcolor="#c0c0c0">175,238,238</td>
+<td bgcolor="#afeeee">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00ffff">&nbsp;</td>
+<td bgcolor="#dedede">Cyan</td>
+<td bgcolor="#dedede" height="28">青色</td>
+<td bgcolor="#c0c0c0">#00FFFF</td>
+<td bgcolor="#c0c0c0">0,255,255</td>
+<td bgcolor="#00ffff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00ffff">&nbsp;</td>
+<td bgcolor="#dedede">Aqua</td>
+<td bgcolor="#dedede" height="28">浅绿色(水色)</td>
+<td bgcolor="#c0c0c0">#00FFFF</td>
+<td bgcolor="#c0c0c0">0,255,255</td>
+<td bgcolor="#00ffff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00ced1">&nbsp;</td>
+<td bgcolor="#dedede">DarkTurquoise</td>
+<td bgcolor="#dedede" height="28">暗绿宝石</td>
+<td bgcolor="#c0c0c0">#00CED1</td>
+<td bgcolor="#c0c0c0">0,206,209</td>
+<td bgcolor="#00ced1">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#2f4f4f">&nbsp;</td>
+<td bgcolor="#dedede">DarkSlateGray</td>
+<td bgcolor="#dedede" height="28">暗瓦灰色(暗石板灰)</td>
+<td bgcolor="#c0c0c0">#2F4F4F</td>
+<td bgcolor="#c0c0c0">47,79,79</td>
+<td bgcolor="#2f4f4f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#008b8b">&nbsp;</td>
+<td bgcolor="#dedede">DarkCyan</td>
+<td bgcolor="#dedede" height="28">暗青色</td>
+<td bgcolor="#c0c0c0">#008B8B</td>
+<td bgcolor="#c0c0c0">0,139,139</td>
+<td bgcolor="#008b8b">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#008080">&nbsp;</td>
+<td bgcolor="#dedede">Teal</td>
+<td bgcolor="#dedede" height="28">水鸭色</td>
+<td bgcolor="#c0c0c0">#008080</td>
+<td bgcolor="#c0c0c0">0,128,128</td>
+<td bgcolor="#008080">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#48d1cc">&nbsp;</td>
+<td bgcolor="#dedede">MediumTurquoise</td>
+<td bgcolor="#dedede" height="28">中绿宝石</td>
+<td bgcolor="#c0c0c0">#48D1CC</td>
+<td bgcolor="#c0c0c0">72,209,204</td>
+<td bgcolor="#48d1cc">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#20b2aa">&nbsp;</td>
+<td bgcolor="#dedede">LightSeaGreen</td>
+<td bgcolor="#dedede" height="28">浅海洋绿</td>
+<td bgcolor="#c0c0c0">#20B2AA</td>
+<td bgcolor="#c0c0c0">32,178,170</td>
+<td bgcolor="#20b2aa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#40e0d0">&nbsp;</td>
+<td bgcolor="#dedede">Turquoise</td>
+<td bgcolor="#dedede" height="28">绿宝石</td>
+<td bgcolor="#c0c0c0">#40E0D0</td>
+<td bgcolor="#c0c0c0">64,224,208</td>
+<td bgcolor="#40e0d0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#7fffd4">&nbsp;</td>
+<td bgcolor="#dedede">Aquamarine</td>
+<td bgcolor="#dedede" height="28">宝石碧绿</td>
+<td bgcolor="#c0c0c0">#7FFFD4</td>
+<td bgcolor="#c0c0c0">127,255,212</td>
+<td bgcolor="#7fffd4">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#66cdaa">&nbsp;</td>
+<td bgcolor="#dedede">MediumAquamarine</td>
+<td bgcolor="#dedede" height="28">中宝石碧绿</td>
+<td bgcolor="#c0c0c0">#66CDAA</td>
+<td bgcolor="#c0c0c0">102,205,170</td>
+<td bgcolor="#66cdaa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00fa9a">&nbsp;</td>
+<td bgcolor="#dedede">MediumSpringGreen</td>
+<td bgcolor="#dedede" height="28">中春绿色</td>
+<td bgcolor="#c0c0c0">#00FA9A</td>
+<td bgcolor="#c0c0c0">0,250,154</td>
+<td bgcolor="#00fa9a">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f5fffa">&nbsp;</td>
+<td bgcolor="#dedede">MintCream</td>
+<td bgcolor="#dedede" height="28">薄荷奶油</td>
+<td bgcolor="#c0c0c0">#F5FFFA</td>
+<td bgcolor="#c0c0c0">245,255,250</td>
+<td bgcolor="#f5fffa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00ff7f">&nbsp;</td>
+<td bgcolor="#dedede">SpringGreen</td>
+<td bgcolor="#dedede" height="28">春绿色</td>
+<td bgcolor="#c0c0c0">#00FF7F</td>
+<td bgcolor="#c0c0c0">0,255,127</td>
+<td bgcolor="#00ff7f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#3cb371">&nbsp;</td>
+<td bgcolor="#dedede">MediumSeaGreen</td>
+<td bgcolor="#dedede" height="28">中海洋绿</td>
+<td bgcolor="#c0c0c0">#3CB371</td>
+<td bgcolor="#c0c0c0">60,179,113</td>
+<td bgcolor="#3cb371">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#2e8b57">&nbsp;</td>
+<td bgcolor="#dedede">SeaGreen</td>
+<td bgcolor="#dedede" height="28">海洋绿</td>
+<td bgcolor="#c0c0c0">#2E8B57</td>
+<td bgcolor="#c0c0c0">46,139,87</td>
+<td bgcolor="#2e8b57">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f0fff0">&nbsp;</td>
+<td bgcolor="#dedede">Honeydew</td>
+<td bgcolor="#dedede" height="28">蜜色(蜜瓜色)</td>
+<td bgcolor="#c0c0c0">#F0FFF0</td>
+<td bgcolor="#c0c0c0">240,255,240</td>
+<td bgcolor="#f0fff0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#90ee90">&nbsp;</td>
+<td bgcolor="#dedede">LightGreen</td>
+<td bgcolor="#dedede" height="28">淡绿色</td>
+<td bgcolor="#c0c0c0">#90EE90</td>
+<td bgcolor="#c0c0c0">144,238,144</td>
+<td bgcolor="#90ee90">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#98fb98">&nbsp;</td>
+<td bgcolor="#dedede">PaleGreen</td>
+<td bgcolor="#dedede" height="28">弱绿色</td>
+<td bgcolor="#c0c0c0">#98FB98</td>
+<td bgcolor="#c0c0c0">152,251,152</td>
+<td bgcolor="#98fb98">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#8fbc8f">&nbsp;</td>
+<td bgcolor="#dedede">DarkSeaGreen</td>
+<td bgcolor="#dedede" height="28">暗海洋绿</td>
+<td bgcolor="#c0c0c0">#8FBC8F</td>
+<td bgcolor="#c0c0c0">143,188,143</td>
+<td bgcolor="#8fbc8f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#32cd32">&nbsp;</td>
+<td bgcolor="#dedede">LimeGreen</td>
+<td bgcolor="#dedede" height="28">闪光深绿</td>
+<td bgcolor="#c0c0c0">#32CD32</td>
+<td bgcolor="#c0c0c0">50,205,50</td>
+<td bgcolor="#32cd32">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#00ff00">&nbsp;</td>
+<td bgcolor="#dedede">Lime</td>
+<td bgcolor="#dedede" height="28">闪光绿</td>
+<td bgcolor="#c0c0c0">#00FF00</td>
+<td bgcolor="#c0c0c0">0,255,0</td>
+<td bgcolor="#00ff00">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#228b22">&nbsp;</td>
+<td bgcolor="#dedede">ForestGreen</td>
+<td bgcolor="#dedede" height="28">森林绿</td>
+<td bgcolor="#c0c0c0">#228B22</td>
+<td bgcolor="#c0c0c0">34,139,34</td>
+<td bgcolor="#228b22">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#008000">&nbsp;</td>
+<td bgcolor="#dedede">Green</td>
+<td bgcolor="#dedede" height="28">纯绿</td>
+<td bgcolor="#c0c0c0">#008000</td>
+<td bgcolor="#c0c0c0">0,128,0</td>
+<td bgcolor="#008000">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#006400">&nbsp;</td>
+<td bgcolor="#dedede">DarkGreen</td>
+<td bgcolor="#dedede" height="28">暗绿色</td>
+<td bgcolor="#c0c0c0">#006400</td>
+<td bgcolor="#c0c0c0">0,100,0</td>
+<td bgcolor="#006400">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#7fff00">&nbsp;</td>
+<td bgcolor="#dedede">Chartreuse</td>
+<td bgcolor="#dedede" height="28">黄绿色(查特酒绿)</td>
+<td bgcolor="#c0c0c0">#7FFF00</td>
+<td bgcolor="#c0c0c0">127,255,0</td>
+<td bgcolor="#7fff00">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#7cfc00">&nbsp;</td>
+<td bgcolor="#dedede">LawnGreen</td>
+<td bgcolor="#dedede" height="28">草绿色(草坪绿_</td>
+<td bgcolor="#c0c0c0">#7CFC00</td>
+<td bgcolor="#c0c0c0">124,252,0</td>
+<td bgcolor="#7cfc00">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#adff2f">&nbsp;</td>
+<td bgcolor="#dedede">GreenYellow</td>
+<td bgcolor="#dedede" height="28">绿黄色</td>
+<td bgcolor="#c0c0c0">#ADFF2F</td>
+<td bgcolor="#c0c0c0">173,255,47</td>
+<td bgcolor="#adff2f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#556b2f">&nbsp;</td>
+<td bgcolor="#dedede">DarkOliveGreen</td>
+<td bgcolor="#dedede" height="28">暗橄榄绿</td>
+<td bgcolor="#c0c0c0">#556B2F</td>
+<td bgcolor="#c0c0c0">85,107,47</td>
+<td bgcolor="#556b2f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#9acd32">&nbsp;</td>
+<td bgcolor="#dedede">YellowGreen</td>
+<td bgcolor="#dedede" height="28">黄绿色</td>
+<td bgcolor="#c0c0c0">#9ACD32</td>
+<td bgcolor="#c0c0c0">154,205,50</td>
+<td bgcolor="#9acd32">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#6b8e23">&nbsp;</td>
+<td bgcolor="#dedede">OliveDrab</td>
+<td bgcolor="#dedede" height="28">橄榄褐色</td>
+<td bgcolor="#c0c0c0">#6B8E23</td>
+<td bgcolor="#c0c0c0">107,142,35</td>
+<td bgcolor="#6b8e23">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f5f5dc">&nbsp;</td>
+<td bgcolor="#dedede">Beige</td>
+<td bgcolor="#dedede" height="28">米色/灰棕色</td>
+<td bgcolor="#c0c0c0">#F5F5DC</td>
+<td bgcolor="#c0c0c0">245,245,220</td>
+<td bgcolor="#f5f5dc">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fafad2">&nbsp;</td>
+<td bgcolor="#dedede">LightGoldenrodYellow</td>
+<td bgcolor="#dedede" height="28">亮菊黄</td>
+<td bgcolor="#c0c0c0">#FAFAD2</td>
+<td bgcolor="#c0c0c0">250,250,210</td>
+<td bgcolor="#fafad2">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fffff0">&nbsp;</td>
+<td bgcolor="#dedede">Ivory</td>
+<td bgcolor="#dedede" height="28">象牙色</td>
+<td bgcolor="#c0c0c0">#FFFFF0</td>
+<td bgcolor="#c0c0c0">255,255,240</td>
+<td bgcolor="#fffff0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffffe0">&nbsp;</td>
+<td bgcolor="#dedede">LightYellow</td>
+<td bgcolor="#dedede" height="28">浅黄色</td>
+<td bgcolor="#c0c0c0">#FFFFE0</td>
+<td bgcolor="#c0c0c0">255,255,224</td>
+<td bgcolor="#ffffe0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffff00">&nbsp;</td>
+<td bgcolor="#dedede">Yellow</td>
+<td bgcolor="#dedede" height="28">纯黄</td>
+<td bgcolor="#c0c0c0">#FFFF00</td>
+<td bgcolor="#c0c0c0">255,255,0</td>
+<td bgcolor="#ffff00">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#808000">&nbsp;</td>
+<td bgcolor="#dedede">Olive</td>
+<td bgcolor="#dedede" height="28">橄榄</td>
+<td bgcolor="#c0c0c0">#808000</td>
+<td bgcolor="#c0c0c0">128,128,0</td>
+<td bgcolor="#808000">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#bdb76b">&nbsp;</td>
+<td bgcolor="#dedede">DarkKhaki</td>
+<td bgcolor="#dedede" height="28">暗黄褐色(深卡叽布)</td>
+<td bgcolor="#c0c0c0">#BDB76B</td>
+<td bgcolor="#c0c0c0">189,183,107</td>
+<td bgcolor="#bdb76b">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fffacd">&nbsp;</td>
+<td bgcolor="#dedede">LemonChiffon</td>
+<td bgcolor="#dedede" height="28">柠檬绸</td>
+<td bgcolor="#c0c0c0">#FFFACD</td>
+<td bgcolor="#c0c0c0">255,250,205</td>
+<td bgcolor="#fffacd">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#eee8aa">&nbsp;</td>
+<td bgcolor="#dedede">PaleGoldenrod</td>
+<td bgcolor="#dedede" height="28">灰菊黄(苍麒麟色)</td>
+<td bgcolor="#c0c0c0">#EEE8AA</td>
+<td bgcolor="#c0c0c0">238,232,170</td>
+<td bgcolor="#eee8aa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f0e68c">&nbsp;</td>
+<td bgcolor="#dedede">Khaki</td>
+<td bgcolor="#dedede" height="28">黄褐色(卡叽布)</td>
+<td bgcolor="#c0c0c0">#F0E68C</td>
+<td bgcolor="#c0c0c0">240,230,140</td>
+<td bgcolor="#f0e68c">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffd700">&nbsp;</td>
+<td bgcolor="#dedede">Gold</td>
+<td bgcolor="#dedede" height="28">金色</td>
+<td bgcolor="#c0c0c0">#FFD700</td>
+<td bgcolor="#c0c0c0">255,215,0</td>
+<td bgcolor="#ffd700">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fff8dc">&nbsp;</td>
+<td bgcolor="#dedede">Cornsilk</td>
+<td bgcolor="#dedede" height="28">玉米丝色</td>
+<td bgcolor="#c0c0c0">#FFF8DC</td>
+<td bgcolor="#c0c0c0">255,248,220</td>
+<td bgcolor="#fff8dc">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#daa520">&nbsp;</td>
+<td bgcolor="#dedede">Goldenrod</td>
+<td bgcolor="#dedede" height="28">金菊黄</td>
+<td bgcolor="#c0c0c0">#DAA520</td>
+<td bgcolor="#c0c0c0">218,165,32</td>
+<td bgcolor="#daa520">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#b8860b">&nbsp;</td>
+<td bgcolor="#dedede">DarkGoldenrod</td>
+<td bgcolor="#dedede" height="28">暗金菊黄</td>
+<td bgcolor="#c0c0c0">#B8860B</td>
+<td bgcolor="#c0c0c0">184,134,11</td>
+<td bgcolor="#b8860b">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fffaf0">&nbsp;</td>
+<td bgcolor="#dedede">FloralWhite</td>
+<td bgcolor="#dedede" height="28">花的白色</td>
+<td bgcolor="#c0c0c0">#FFFAF0</td>
+<td bgcolor="#c0c0c0">255,250,240</td>
+<td bgcolor="#fffaf0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fdf5e6">&nbsp;</td>
+<td bgcolor="#dedede">OldLace</td>
+<td bgcolor="#dedede" height="28">老花色(旧蕾丝)</td>
+<td bgcolor="#c0c0c0">#FDF5E6</td>
+<td bgcolor="#c0c0c0">253,245,230</td>
+<td bgcolor="#fdf5e6">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f5deb3">&nbsp;</td>
+<td bgcolor="#dedede">Wheat</td>
+<td bgcolor="#dedede" height="28">浅黄色(小麦色)</td>
+<td bgcolor="#c0c0c0">#F5DEB3</td>
+<td bgcolor="#c0c0c0">245,222,179</td>
+<td bgcolor="#f5deb3">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffe4b5">&nbsp;</td>
+<td bgcolor="#dedede">Moccasin</td>
+<td bgcolor="#dedede" height="28">鹿皮色(鹿皮靴)</td>
+<td bgcolor="#c0c0c0">#FFE4B5</td>
+<td bgcolor="#c0c0c0">255,228,181</td>
+<td bgcolor="#ffe4b5">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffa500">&nbsp;</td>
+<td bgcolor="#dedede">Orange</td>
+<td bgcolor="#dedede" height="28">橙色</td>
+<td bgcolor="#c0c0c0">#FFA500</td>
+<td bgcolor="#c0c0c0">255,165,0</td>
+<td bgcolor="#ffa500">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffefd5">&nbsp;</td>
+<td bgcolor="#dedede">PapayaWhip</td>
+<td bgcolor="#dedede" height="28">番木色(番木瓜)</td>
+<td bgcolor="#c0c0c0">#FFEFD5</td>
+<td bgcolor="#c0c0c0">255,239,213</td>
+<td bgcolor="#ffefd5">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffebcd">&nbsp;</td>
+<td bgcolor="#dedede">BlanchedAlmond</td>
+<td bgcolor="#dedede" height="28">白杏色</td>
+<td bgcolor="#c0c0c0">#FFEBCD</td>
+<td bgcolor="#c0c0c0">255,235,205</td>
+<td bgcolor="#ffebcd">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffdead">&nbsp;</td>
+<td bgcolor="#dedede">NavajoWhite</td>
+<td bgcolor="#dedede" height="28">纳瓦白(土著白)</td>
+<td bgcolor="#c0c0c0">#FFDEAD</td>
+<td bgcolor="#c0c0c0">255,222,173</td>
+<td bgcolor="#ffdead">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#faebd7">&nbsp;</td>
+<td bgcolor="#dedede">AntiqueWhite</td>
+<td bgcolor="#dedede" height="28">古董白</td>
+<td bgcolor="#c0c0c0">#FAEBD7</td>
+<td bgcolor="#c0c0c0">250,235,215</td>
+<td bgcolor="#faebd7">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#d2b48c">&nbsp;</td>
+<td bgcolor="#dedede">Tan</td>
+<td bgcolor="#dedede" height="28">茶色</td>
+<td bgcolor="#c0c0c0">#D2B48C</td>
+<td bgcolor="#c0c0c0">210,180,140</td>
+<td bgcolor="#d2b48c">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#deb887">&nbsp;</td>
+<td bgcolor="#dedede">BurlyWood</td>
+<td bgcolor="#dedede" height="28">硬木色</td>
+<td bgcolor="#c0c0c0">#DEB887</td>
+<td bgcolor="#c0c0c0">222,184,135</td>
+<td bgcolor="#deb887">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffe4c4">&nbsp;</td>
+<td bgcolor="#dedede">Bisque</td>
+<td bgcolor="#dedede" height="28">陶坯黄</td>
+<td bgcolor="#c0c0c0">#FFE4C4</td>
+<td bgcolor="#c0c0c0">255,228,196</td>
+<td bgcolor="#ffe4c4">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff8c00">&nbsp;</td>
+<td bgcolor="#dedede">DarkOrange</td>
+<td bgcolor="#dedede" height="28">深橙色</td>
+<td bgcolor="#c0c0c0">#FF8C00</td>
+<td bgcolor="#c0c0c0">255,140,0</td>
+<td bgcolor="#ff8c00">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#faf0e6">&nbsp;</td>
+<td bgcolor="#dedede">Linen</td>
+<td bgcolor="#dedede" height="28">亚麻布</td>
+<td bgcolor="#c0c0c0">#FAF0E6</td>
+<td bgcolor="#c0c0c0">250,240,230</td>
+<td bgcolor="#faf0e6">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#cd853f">&nbsp;</td>
+<td bgcolor="#dedede">Peru</td>
+<td bgcolor="#dedede" height="28">秘鲁色</td>
+<td bgcolor="#c0c0c0">#CD853F</td>
+<td bgcolor="#c0c0c0">205,133,63</td>
+<td bgcolor="#cd853f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffdab9">&nbsp;</td>
+<td bgcolor="#dedede">PeachPuff</td>
+<td bgcolor="#dedede" height="28">桃肉色</td>
+<td bgcolor="#c0c0c0">#FFDAB9</td>
+<td bgcolor="#c0c0c0">255,218,185</td>
+<td bgcolor="#ffdab9">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f4a460">&nbsp;</td>
+<td bgcolor="#dedede">SandyBrown</td>
+<td bgcolor="#dedede" height="28">沙棕色</td>
+<td bgcolor="#c0c0c0">#F4A460</td>
+<td bgcolor="#c0c0c0">244,164,96</td>
+<td bgcolor="#f4a460">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#d2691e">&nbsp;</td>
+<td bgcolor="#dedede">Chocolate</td>
+<td bgcolor="#dedede" height="28">巧克力色</td>
+<td bgcolor="#c0c0c0">#D2691E</td>
+<td bgcolor="#c0c0c0">210,105,30</td>
+<td bgcolor="#d2691e">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#8b4513">&nbsp;</td>
+<td bgcolor="#dedede">SaddleBrown</td>
+<td bgcolor="#dedede" height="28">重褐色(马鞍棕色)</td>
+<td bgcolor="#c0c0c0">#8B4513</td>
+<td bgcolor="#c0c0c0">139,69,19</td>
+<td bgcolor="#8b4513">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fff5ee">&nbsp;</td>
+<td bgcolor="#dedede">Seashell</td>
+<td bgcolor="#dedede" height="28">海贝壳</td>
+<td bgcolor="#c0c0c0">#FFF5EE</td>
+<td bgcolor="#c0c0c0">255,245,238</td>
+<td bgcolor="#fff5ee">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#a0522d">&nbsp;</td>
+<td bgcolor="#dedede">Sienna</td>
+<td bgcolor="#dedede" height="28">黄土赭色</td>
+<td bgcolor="#c0c0c0">#A0522D</td>
+<td bgcolor="#c0c0c0">160,82,45</td>
+<td bgcolor="#a0522d">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffa07a">&nbsp;</td>
+<td bgcolor="#dedede">LightSalmon</td>
+<td bgcolor="#dedede" height="28">浅鲑鱼肉色</td>
+<td bgcolor="#c0c0c0">#FFA07A</td>
+<td bgcolor="#c0c0c0">255,160,122</td>
+<td bgcolor="#ffa07a">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff7f50">&nbsp;</td>
+<td bgcolor="#dedede">Coral</td>
+<td bgcolor="#dedede" height="28">珊瑚</td>
+<td bgcolor="#c0c0c0">#FF7F50</td>
+<td bgcolor="#c0c0c0">255,127,80</td>
+<td bgcolor="#ff7f50">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff4500">&nbsp;</td>
+<td bgcolor="#dedede">OrangeRed</td>
+<td bgcolor="#dedede" height="28">橙红色</td>
+<td bgcolor="#c0c0c0">#FF4500</td>
+<td bgcolor="#c0c0c0">255,69,0</td>
+<td bgcolor="#ff4500">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#e9967a">&nbsp;</td>
+<td bgcolor="#dedede">DarkSalmon</td>
+<td bgcolor="#dedede" height="28">深鲜肉/鲑鱼色</td>
+<td bgcolor="#c0c0c0">#E9967A</td>
+<td bgcolor="#c0c0c0">233,150,122</td>
+<td bgcolor="#e9967a">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff6347">&nbsp;</td>
+<td bgcolor="#dedede">Tomato</td>
+<td bgcolor="#dedede" height="28">番茄红</td>
+<td bgcolor="#c0c0c0">#FF6347</td>
+<td bgcolor="#c0c0c0">255,99,71</td>
+<td bgcolor="#ff6347">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffe4e1">&nbsp;</td>
+<td bgcolor="#dedede">MistyRose</td>
+<td bgcolor="#dedede" height="28">浅玫瑰色(薄雾玫瑰)</td>
+<td bgcolor="#c0c0c0">#FFE4E1</td>
+<td bgcolor="#c0c0c0">255,228,225</td>
+<td bgcolor="#ffe4e1">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fa8072">&nbsp;</td>
+<td bgcolor="#dedede">Salmon</td>
+<td bgcolor="#dedede" height="28">鲜肉/鲑鱼色</td>
+<td bgcolor="#c0c0c0">#FA8072</td>
+<td bgcolor="#c0c0c0">250,128,114</td>
+<td bgcolor="#fa8072">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#fffafa">&nbsp;</td>
+<td bgcolor="#dedede">Snow</td>
+<td bgcolor="#dedede" height="28">雪白色</td>
+<td bgcolor="#c0c0c0">#FFFAFA</td>
+<td bgcolor="#c0c0c0">255,250,250</td>
+<td bgcolor="#fffafa">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f08080">&nbsp;</td>
+<td bgcolor="#dedede">LightCoral</td>
+<td bgcolor="#dedede" height="28">淡珊瑚色</td>
+<td bgcolor="#c0c0c0">#F08080</td>
+<td bgcolor="#c0c0c0">240,128,128</td>
+<td bgcolor="#f08080">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#bc8f8f">&nbsp;</td>
+<td bgcolor="#dedede">RosyBrown</td>
+<td bgcolor="#dedede" height="28">玫瑰棕色</td>
+<td bgcolor="#c0c0c0">#BC8F8F</td>
+<td bgcolor="#c0c0c0">188,143,143</td>
+<td bgcolor="#bc8f8f">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#cd5c5c">&nbsp;</td>
+<td bgcolor="#dedede">IndianRed</td>
+<td bgcolor="#dedede" height="28">印度红</td>
+<td bgcolor="#c0c0c0">#CD5C5C</td>
+<td bgcolor="#c0c0c0">205,92,92</td>
+<td bgcolor="#cd5c5c">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ff0000">&nbsp;</td>
+<td bgcolor="#dedede">Red</td>
+<td bgcolor="#dedede" height="28">纯红</td>
+<td bgcolor="#c0c0c0">#FF0000</td>
+<td bgcolor="#c0c0c0">255,0,0</td>
+<td bgcolor="#ff0000">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#a52a2a">&nbsp;</td>
+<td bgcolor="#dedede">Brown</td>
+<td bgcolor="#dedede" height="28">棕色</td>
+<td bgcolor="#c0c0c0">#A52A2A</td>
+<td bgcolor="#c0c0c0">165,42,42</td>
+<td bgcolor="#a52a2a">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#b22222">&nbsp;</td>
+<td bgcolor="#dedede">FireBrick</td>
+<td bgcolor="#dedede" height="28">火砖色(耐火砖)</td>
+<td bgcolor="#c0c0c0">#B22222</td>
+<td bgcolor="#c0c0c0">178,34,34</td>
+<td bgcolor="#b22222">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#8b0000">&nbsp;</td>
+<td bgcolor="#dedede">DarkRed</td>
+<td bgcolor="#dedede" height="28">深红色</td>
+<td bgcolor="#c0c0c0">#8B0000</td>
+<td bgcolor="#c0c0c0">139,0,0</td>
+<td bgcolor="#8b0000">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#800000">&nbsp;</td>
+<td bgcolor="#dedede">Maroon</td>
+<td bgcolor="#dedede" height="28">栗色</td>
+<td bgcolor="#c0c0c0">#800000</td>
+<td bgcolor="#c0c0c0">128,0,0</td>
+<td bgcolor="#800000">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#ffffff">&nbsp;</td>
+<td bgcolor="#dedede">White</td>
+<td bgcolor="#dedede" height="28">纯白</td>
+<td bgcolor="#c0c0c0">#FFFFFF</td>
+<td bgcolor="#c0c0c0">255,255,255</td>
+<td bgcolor="#ffffff">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#f5f5f5">&nbsp;</td>
+<td bgcolor="#dedede">WhiteSmoke</td>
+<td bgcolor="#dedede" height="28">白烟</td>
+<td bgcolor="#c0c0c0">#F5F5F5</td>
+<td bgcolor="#c0c0c0">245,245,245</td>
+<td bgcolor="#f5f5f5">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#dcdcdc">&nbsp;</td>
+<td bgcolor="#dedede">Gainsboro</td>
+<td bgcolor="#dedede" height="28">淡灰色(庚斯博罗灰)</td>
+<td bgcolor="#c0c0c0">#DCDCDC</td>
+<td bgcolor="#c0c0c0">220,220,220</td>
+<td bgcolor="#dcdcdc">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#d3d3d3">&nbsp;</td>
+<td bgcolor="#dedede">LightGrey</td>
+<td bgcolor="#dedede" height="28">浅灰色</td>
+<td bgcolor="#c0c0c0">#D3D3D3</td>
+<td bgcolor="#c0c0c0">211,211,211</td>
+<td bgcolor="#d3d3d3">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#c0c0c0">&nbsp;</td>
+<td bgcolor="#dedede">Silver</td>
+<td bgcolor="#dedede" height="28">银灰色</td>
+<td bgcolor="#c0c0c0">#C0C0C0</td>
+<td bgcolor="#c0c0c0">192,192,192</td>
+<td bgcolor="#c0c0c0">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#a9a9a9">&nbsp;</td>
+<td bgcolor="#dedede">DarkGray</td>
+<td bgcolor="#dedede" height="28">深灰色</td>
+<td bgcolor="#c0c0c0">#A9A9A9</td>
+<td bgcolor="#c0c0c0">169,169,169</td>
+<td bgcolor="#a9a9a9">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#808080">&nbsp;</td>
+<td bgcolor="#dedede">Gray</td>
+<td bgcolor="#dedede" height="28">灰色</td>
+<td bgcolor="#c0c0c0">#808080</td>
+<td bgcolor="#c0c0c0">128,128,128</td>
+<td bgcolor="#808080">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#696969">&nbsp;</td>
+<td bgcolor="#dedede">DimGray</td>
+<td bgcolor="#dedede" height="28">暗淡的灰色</td>
+<td bgcolor="#c0c0c0">#696969</td>
+<td bgcolor="#c0c0c0">105,105,105</td>
+<td bgcolor="#696969">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#000000">&nbsp;</td>
+<td bgcolor="#dedede">Black</td>
+<td bgcolor="#dedede" height="28">纯黑</td>
+<td bgcolor="#c0c0c0">#000000</td>
+<td bgcolor="#c0c0c0">0,0,0</td>
+<td bgcolor="#000000">&nbsp;</td></tr></tbody></table></div></td></tr></tbody></table>
+<p></p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://whitenight999.top/2020/05/22/color/" data-id="ckm5ysw5x000sd4xsf8jfe23t" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/" rel="tag">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%A2%9C%E8%89%B2/" rel="tag">颜色</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-blog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/21/blog/" class="article-date">
+  <time datetime="2020-05-21T12:20:20.000Z" itemprop="datePublished">2020-05-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/">每日一文</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/21/blog/">饮茶时光</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3><center>饮茶时光</h3>
+<p align=center> <font face="微软雅黑" size="3" color="grey">梁文道</font> </p>
+<p>尾指应该曲折起来，还是自然地往外伸出呢？这是个问题，是个礼貌的问题，这是个有关喝茶的礼貌的问题。
+</p>
+<p>我说的是在英式饮茶的时候，持杯手应该如何摆放的问题。首先，用拇指、食指和中指这三根手指去轻轻把持杯耳这一点是毫无疑问的了。而无名指虽然派不上用场，但它多半也会顺势与食指和中指一起呈现弯曲的形态。唯一有争论的地方在于尾指。从肌肉的生理机制看来，这根小小的指头会自然地往外突出，颇有一枝独秀的派头。可是19世纪的贵妇却嫌这个姿态太没礼貌，显不出上层社会的文明与自制，于是她们就刻意把它和其他手指一齐向掌心收拢。然而到了20世纪初，风气斗变，贵人们纷纷讲究自然，开始讨厌“过于造作”的礼节，所以曲折尾指这个小动作就被认为是“故作有教养而可笑的矫揉造作”了。
+</p>
+<p>我为什么要花上一整段字去介绍这么一个微不足道的小问题呢？那是因为它很能说明喝茶究竟是怎么回事。正如人类学家艾里斯·麦克法兰（Iris MacFarlane）所说的，喝茶本来只牵涉一些很简单的动作，“只需要花上一两秒的时间，但这样的动作无法让准备饮料给宾客的过程中有太多社交互动，也不会有太多细节繁复的社交仪式”。而仪式却是种深深埋藏在人类心中的渴望，所以无论是在英国、日本，还是茶的祖国——中国，喝茶都变成了一种远不止是喝茶的复杂社交活动。
+</p>
+<p>仪式需要与仪式相应的时间与空间，所以我一直对半岛酒店的下午茶感到不以为然。不是它的道具不对，更不是它的茶点不美味，而是它的环境太过闭塞，原来挺宽阔的大堂总是被人山人海的场面弄得闹哄哄的，非常违背下午茶的本义。我们今天所知的英式下午茶之种种规矩与形象，皆源自19世纪中叶。那正是英国造园艺术的鼎盛时期，判断一家人的家底和教养，看的不是他的大宅宏伟与否，而是看他家的庭园经营得优不优美。一场美好的下午茶，本该设在一道可遮阳的廊道，或者一座玲珑通透的凉亭，能被清风吹拂，能闻鸟啼草香，更能观赏四方绿野与远方群山。下午茶与庭园就像是天生的一对璧人，彼此需要，并且能把对方提升到另一个层面，共同界定了英式优雅生活的理念。回过头看，当你坐在半岛酒店的大堂，正要摆开架势研究尾指的问题的时候，却见一队游客排成的长龙挤在一角，等着你的位子，你还能优雅得起来吗？
+</p>
+<p>空间固然重要，但时间也许才是喝茶的真正本质。就拿我们广东饮茶来说吧，大部分人都把它当做吃点心的同义词；也有人认为饮茶既然叫做饮茶，可见茶才是它的第一主角；更有人相信悬在半空的鸟笼与托着点心来回叫卖的堂倌，以及木制家具所共同渲染的气氛是饮茶的不二本相。但我却坚持，饮茶首先应该是一种时间的概念；就和西式的下午茶一样，那是一段神奇的时光，在劳碌紧凑的日常生活里开出了一片时间之外的例外时间。它是上午、中午，还是下午，这都不重要；重要的是在这段时间里面你无所用心，自然放松，既能与陌生人共桌交谈，也能同几饮茶各自修行；既能和一家老小闲话家常，也能放着伴侣不管低头只顾自己的报纸。这么饮下来，这一餐茶往往一不小心就从上午坐到中午，浑然不觉时光流逝匆匆。就算你在数字上坐得不长，可感觉上它却悠然得近乎停顿，只有阳光在地板上静静摆过。
+</p>
+<p>为了这段时间，我可以不介意桌上的茶具是壶还是盅，更可以忘记那只虾饺的饺皮到底折了几折。可惜的是，比起好茶和好点心，这种已经失落了的时间观念更难复现。想想看，以前我们在路上碰见朋友，急忙中还会言不由衷地说一句“得闲饮茶”；意思就是大家都忙，有空再一起忘掉时间吧。现在呢？你是不是已经很久没再听人说过这句话了？因为我们已经忙到根本忘记世上曾经有饮茶这种时间了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://whitenight999.top/2020/05/21/blog/" data-id="ckm5ysw5p000gd4xshgxl6f0z" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%98%85%E8%AF%BB/" rel="tag">阅读</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web/">Web</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AE%89%E5%8D%93/">安卓</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/">每日一文</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/CSS/" rel="tag">CSS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/" rel="tag">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/" rel="tag">Html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UI/" rel="tag">UI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/" rel="tag">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E5%B7%A7/" rel="tag">技巧</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%92%AD%E6%94%BE%E5%99%A8/" rel="tag">播放器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%85%E8%AF%BB/" rel="tag">阅读</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A2%9C%E8%89%B2/" rel="tag">颜色</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/CSS/" style="font-size: 13.33px;">CSS</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Html/" style="font-size: 10px;">Html</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/UI/" style="font-size: 10px;">UI</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/%E6%8A%80%E5%B7%A7/" style="font-size: 20px;">技巧</a> <a href="/tags/%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 10px;">播放器</a> <a href="/tags/%E9%98%85%E8%AF%BB/" style="font-size: 16.67px;">阅读</a> <a href="/tags/%E9%A2%9C%E8%89%B2/" style="font-size: 10px;">颜色</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/05/29/5292/">我是一只迁徙鸟，梦了一场春秋</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/29/5272/">常用的CSS属性大全</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/27/5273/">真正的自由和远方，永远在人的心里</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/27/5291/">常用的CSS单位大全</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/27/5271/">UI设计小技巧</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2021 WhiteNight<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
 
+<script src="/js/script.js"></script>
 
 
-<script type="text/javascript" src="/js/click.js"></script>
+
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?2320cc3d01d9a8e362b1be4f7b9991fd"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
